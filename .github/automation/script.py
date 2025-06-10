@@ -40,7 +40,8 @@ def fetch_parks(api_key):
             print(f"Error fetching parks: {e}", file=sys.stderr)
             sys.exit(1)
 
-    return parks
+    # Sort parks by fullName before returning
+    return sorted(parks, key=lambda x: x["fullName"])
 
 def fetch_stamp_locations(api_key):
     """Fetch all passport stamp locations from the NPS API."""
