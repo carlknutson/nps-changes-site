@@ -1,0 +1,45 @@
+name: Daily NPS Data Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs at 00:00 UTC every day
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run script to update NPS data
+      id: run-script
+      env:
+        NPS_API_TOKEN: ${{ secrets.NPS_API_TOKEN }}
+      run: |
+        python .github/automation/script.py > data/places.txt
+        python .github/automation/script.py --no-stamps > data/places_no_stamps.txt
+        changes=$(git status --porcelain)
+        if [ -z "$changes" ]; then
+          echo "changes_detected=false" >> "$GITHUB_OUTPUT"
+          echo "No changes to NPS data."
+          exit 0
+        fi
+        echo "changes_detected=true" >> "$GITHUB_OUTPUT"
+    - name: Update NPS data in repository
+      if: steps.run-script.outputs.changes_detected == 'true'
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data/
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update NPS data" && git push)
