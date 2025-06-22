@@ -1,9 +1,8 @@
 [
   {
-    "name": "Abraham Lincoln Birthplace Historical Park",
-    "description": "For over a century from around the world have come to rural Central Kentucky to honor the humble beginnings of our 16th president, Abraham Lincoln. His early life on Kentucky's frontier shaped his character and prepared him to lead the nation through Civil War. Visit our country's first memorial to Lincoln, built with donations from young and old, and the site of his childhood home.",
+    "name": "Abraham Lincoln Birthplace National Historical Park",
+    "description": "For over a century people from around the world have come to rural Central Kentucky to honor the humble beginnings of our 16th president, Abraham Lincoln. His early life on Kentucky's frontier shaped his character and prepared him to lead the nation through Civil War. Visit our country's first memorial to Lincoln, built with donations from young and old, and the site of his childhood home.",
     "has_stamps": true,
-    "testing": "hi!",
     "nps_link": "https://www.nps.gov/abli/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C861078-1DD8-B71B-0B774A242EF6A706.jpg"
   },
@@ -16,7 +15,7 @@
   },
   {
     "name": "Adams National Historical Park",
-    "description": "From the sweet little farm at the foot of Penn\u2019s Hill to the gentleman\u2019s country estate at Peace field, Adams National Historical Park is the story of \u201cheroes, statesmen, philosophers\u2026and learned women\u201d whose ideas and actions helped to transform thirteen disparate colonies into one united nation.",
+    "description": "From the sweet little farm at the foot of Penn’s Hill to the gentleman’s country estate at Peace field, Adams National Historical Park is the story of “heroes, statesmen, philosophers…and learned women” whose ideas and actions helped to transform thirteen disparate colonies into one united nation.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/adam/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/889E1412-09CD-086C-0BA3855C6E9FF9D3.jpg"
@@ -44,7 +43,7 @@
   },
   {
     "name": "Ala Kahakai National Historic Trail",
-    "description": "Established in 2000 to preserve, protect and interpret traditional Native Hawaiian culture and natural resources, Ala Kahakai National Historic Trail is a 175-mile corridor encompassing a network of culturally and historically significant trails. This \"trail by the sea\" traverses wahi pana (storied landscapes), ancient Hawaiian sites and over 200 ahupua\u02bba (traditional land divisions).",
+    "description": "Established in 2000 to preserve, protect and interpret traditional Native Hawaiian culture and natural resources, Ala Kahakai National Historic Trail is a 175-mile corridor encompassing a network of culturally and historically significant trails. This \"trail by the sea\" traverses wahi pana (storied landscapes), ancient Hawaiian sites and over 200 ahupuaʻa (traditional land divisions).",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/alka/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/12DBDA50-CD81-A60F-A535BCB55C07A5F9.jpg"
@@ -58,7 +57,7 @@
   },
   {
     "name": "Alaska Public Lands",
-    "description": "Alaska\u2019s parks, forests, and refuges are rich and varied. The Alaska Public Lands Information Centers help visitors and residents to have meaningful, safe, enjoyable experiences on public lands, and encourages them to sustain the natural and cultural resources of Alaska. These centers provide trip-planning, interpretation, and education for all ages.",
+    "description": "Alaska’s parks, forests, and refuges are rich and varied. The Alaska Public Lands Information Centers help visitors and residents to have meaningful, safe, enjoyable experiences on public lands, and encourages them to sustain the natural and cultural resources of Alaska. These centers provide trip-planning, interpretation, and education for all ages.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/anch/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/2595FA12-DF7A-1B6C-55D8F41ABCA2E011.jpg"
@@ -72,7 +71,7 @@
   },
   {
     "name": "Aleutian Islands World War II National Historic Area",
-    "description": "The remote Aleutian Islands, home to the Unangax\u0302 (Aleut) people for over 8,000 years, became a fiercely contested Pacific battleground in World War II. Some Unangax\u0302 were taken from their homelands as Japanese prisoners of war while the others were evacuated from the islands by the government. Both groups suffered greatly during the war, and some would never return to their villages.",
+    "description": "The remote Aleutian Islands, home to the Unangax̂ (Aleut) people for over 8,000 years, became a fiercely contested Pacific battleground in World War II. Some Unangax̂ were taken from their homelands as Japanese prisoners of war while the others were evacuated from the islands by the government. Both groups suffered greatly during the war, and some would never return to their villages.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/aleu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7BC1AE-1DD8-B71B-0BF60FDE7A21822B.jpg"
@@ -184,7 +183,7 @@
   },
   {
     "name": "Arlington House, The Robert E. Lee Memorial",
-    "description": "Arlington House is the nation\u2019s memorial to Robert E. Lee. It honors him for specific reasons, including his role in promoting peace and reunion after the Civil War. In a larger sense it exists as a place of study and contemplation of the meaning of some of the most difficult aspects of American history: military service; sacrifice; citizenship; duty; loyalty; slavery and freedom.",
+    "description": "Arlington House is the nation’s memorial to Robert E. Lee. It honors him for specific reasons, including his role in promoting peace and reunion after the Civil War. In a larger sense it exists as a place of study and contemplation of the meaning of some of the most difficult aspects of American history: military service; sacrifice; citizenship; duty; loyalty; slavery and freedom.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/arho/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C6780B46-B0C0-FB79-E17378C527E54DA7.jpeg"
@@ -205,7 +204,7 @@
   },
   {
     "name": "Badlands National Park",
-    "description": "The rugged beauty of the Badlands draws visitors from around the world. These striking geologic deposits contain one of the world\u2019s richest fossil beds. Ancient horses and rhinos once roamed here. The park\u2019s 244,000 acres protect an expanse of mixed-grass prairie where bison, bighorn sheep, prairie dogs, and black-footed ferrets live today.",
+    "description": "The rugged beauty of the Badlands draws visitors from around the world. These striking geologic deposits contain one of the world’s richest fossil beds. Ancient horses and rhinos once roamed here. The park’s 244,000 acres protect an expanse of mixed-grass prairie where bison, bighorn sheep, prairie dogs, and black-footed ferrets live today.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/badl/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C82EE63-1DD8-B71B-0BD6EE0FDCB5D402.jpg"
@@ -261,7 +260,7 @@
   },
   {
     "name": "Big Hole National Battlefield",
-    "description": "On August 9, 1877, gunshots shattered a chilly dawn on a sleeping camp of n\u0131m\u00ed\u00b7pu\u00b7 (Nez Perce). By the time the smoke cleared on August 10, almost 90 nim\u00ed\u00b7pu\u00b7 were dead, along with 31 soldiers and volunteers. Big Hole National Battlefield was created to honor all who were there.",
+    "description": "On August 9, 1877, gunshots shattered a chilly dawn on a sleeping camp of nımí·pu· (Nez Perce). By the time the smoke cleared on August 10, almost 90 nimí·pu· were dead, along with 31 soldiers and volunteers. Big Hole National Battlefield was created to honor all who were there.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/biho/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/99279113-1DD8-B71B-0BF75905FA3FFC7A.jpg"
@@ -317,7 +316,7 @@
   },
   {
     "name": "Blackwell School National Historic Site",
-    "description": "Written by prejudice rather than law, the story of the Blackwell School is one of \u201cseparate but equal\u201d education for Mexican and Mexican American citizens of Marfa, Texas. Built in 1909, the school serves as a significant example of how racism and cultural disparity dominated education and social systems in the United States during this period of de facto segregation from 1889-1965.",
+    "description": "Written by prejudice rather than law, the story of the Blackwell School is one of “separate but equal” education for Mexican and Mexican American citizens of Marfa, Texas. Built in 1909, the school serves as a significant example of how racism and cultural disparity dominated education and social systems in the United States during this period of de facto segregation from 1889-1965.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/blsc/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/41BC060B-9362-F9FE-AD6294CE7DF1B02A.jpg"
@@ -352,7 +351,7 @@
   },
   {
     "name": "Boston Harbor Islands National Recreation Area",
-    "description": ". . . where you can walk a Civil War-era fort, view historic lighthouses, explore tide pools, hike lush trails, camp under the stars, or relax while fishing, picnicking, or swimming\u2014all within reach of downtown Boston. Youth programs, visitor services, research, wildlife management, and more are coordinated on the park's 34 islands and peninsulas by the Boston Harbor Islands Partnership.",
+    "description": ". . . where you can walk a Civil War-era fort, view historic lighthouses, explore tide pools, hike lush trails, camp under the stars, or relax while fishing, picnicking, or swimming—all within reach of downtown Boston. Youth programs, visitor services, research, wildlife management, and more are coordinated on the park's 34 islands and peninsulas by the Boston Harbor Islands Partnership.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/boha/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C858BDF-1DD8-B71B-0B6D6FFEF068BAB3.jpg"
@@ -443,7 +442,7 @@
   },
   {
     "name": "Canyon de Chelly National Monument",
-    "description": "This canyon is home to Din\u00e9 families who raise livestock, farmlands, and live here. People have lived in these canyons for nearly 5,000 years, which is longer than anyone has lived continuously on the Colorado Plateau. In this place called Tsegi, their homes and images tell us their stories. Today, the park and Navajo Nation work together to manage the rich cultural and natural resources.",
+    "description": "This canyon is home to Diné families who raise livestock, farmlands, and live here. People have lived in these canyons for nearly 5,000 years, which is longer than anyone has lived continuously on the Colorado Plateau. In this place called Tsegi, their homes and images tell us their stories. Today, the park and Navajo Nation work together to manage the rich cultural and natural resources.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/cach/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C840D48-1DD8-B71B-0B7CD1781BEC0D0D.png"
@@ -478,14 +477,14 @@
   },
   {
     "name": "Cape Krusenstern National Monument",
-    "description": "A bridge to the past and a land for the future, Cape Krusenstern National Monument protects approximately 560,000 acres of diverse Arctic coastal, and upland ecosystems. Inhabited by the I\u00f1upiaq people since time-immemorial, over 5,000 years of sequential human use is documented in the 114 successive beach ridges. Rich connections to the land and waters are preserved through subsistence practices.",
+    "description": "A bridge to the past and a land for the future, Cape Krusenstern National Monument protects approximately 560,000 acres of diverse Arctic coastal, and upland ecosystems. Inhabited by the Iñupiaq people since time-immemorial, over 5,000 years of sequential human use is documented in the 114 successive beach ridges. Rich connections to the land and waters are preserved through subsistence practices.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/cakr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7A2014-1DD8-B71B-0B764AD7207B0477.jpg"
   },
   {
     "name": "Cape Lookout National Seashore",
-    "description": "A boat ride three miles off-shore brings you to the barrier islands of Cape Lookout National Seashore. Horse watching, shelling, fishing, birding, camping, lighthouse climbing, and touring historic villages--there\u2019s something for everyone at Cape Lookout. Be sure to bring all the food, water, and supplies you need (and carry your trash out of the park) when visiting these remote beaches.",
+    "description": "A boat ride three miles off-shore brings you to the barrier islands of Cape Lookout National Seashore. Horse watching, shelling, fishing, birding, camping, lighthouse climbing, and touring historic villages--there’s something for everyone at Cape Lookout. Be sure to bring all the food, water, and supplies you need (and carry your trash out of the park) when visiting these remote beaches.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/calo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C86A358-1DD8-B71B-0BC275CB93DB8D43.jpg"
@@ -534,14 +533,14 @@
   },
   {
     "name": "Carlsbad Caverns National Park",
-    "description": "High ancient sea ledges, deep rocky canyons, flowering cactus, and desert wildlife\u2014treasures above the ground in the Chihuahuan Desert. Hidden beneath the surface are more than 119 caves\u2014formed when sulfuric acid dissolved limestone leaving behind caverns of all sizes.",
+    "description": "High ancient sea ledges, deep rocky canyons, flowering cactus, and desert wildlife—treasures above the ground in the Chihuahuan Desert. Hidden beneath the surface are more than 119 caves—formed when sulfuric acid dissolved limestone leaving behind caverns of all sizes.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/cave/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/29C3C977-AAE6-B7FD-3C107828D704A5CB.jpg"
   },
   {
     "name": "Carter G. Woodson Home National Historic Site",
-    "description": "Before Dr. Carter G. Woodson, there was very little accurate written history about the lives and experiences of Americans of African descent. Today a National Historic Site, Dr. Woodson\u2019s home served as the headquarters for the Association for the Study of African American Life and History. Dr. Woodson established Negro History Week here in 1926, which we celebrate today as Black History Month.",
+    "description": "Before Dr. Carter G. Woodson, there was very little accurate written history about the lives and experiences of Americans of African descent. Today a National Historic Site, Dr. Woodson’s home served as the headquarters for the Association for the Study of African American Life and History. Dr. Woodson established Negro History Week here in 1926, which we celebrate today as Black History Month.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/cawo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/93C3FA3C-028F-9E45-D5C31B4A283F60AC.jpg"
@@ -562,7 +561,7 @@
   },
   {
     "name": "Castle Clinton National Monument",
-    "description": "Located at the southern tip of Manhattan Island, Castle Clinton stands where New York City began, and represents not only the city\u2019s growth, but the growth of a nation. Initially intended to prevent a British invasion in 1812, the fortification has transformed over the years to welcome theatergoers, immigrants, sightseers, and now, millions of visitors to New York Harbor.",
+    "description": "Located at the southern tip of Manhattan Island, Castle Clinton stands where New York City began, and represents not only the city’s growth, but the growth of a nation. Initially intended to prevent a British invasion in 1812, the fortification has transformed over the years to welcome theatergoers, immigrants, sightseers, and now, millions of visitors to New York Harbor.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/cacl/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8541DF-1DD8-B71B-0BFFEA05DAED37D6.jpg"
@@ -590,7 +589,7 @@
   },
   {
     "name": "Cedar Creek & Belle Grove National Historical Park",
-    "description": "Virginia\u2019s Shenandoah Valley has a long and rich heritage that still inspires today. Native Americans first shaped the land, followed by colonists and settlers. The fertile valley became an important wheat-growing region in the 1800s. It also witnessed dramatic Civil War campaigns, including the Battle of Cedar Creek, a decisive Federal victory that helped bring the war to an end.",
+    "description": "Virginia’s Shenandoah Valley has a long and rich heritage that still inspires today. Native Americans first shaped the land, followed by colonists and settlers. The fertile valley became an important wheat-growing region in the 1800s. It also witnessed dramatic Civil War campaigns, including the Battle of Cedar Creek, a decisive Federal victory that helped bring the war to an end.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/cebe/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7F7010-1DD8-B71B-0BBD98AD1E4FD734.jpg"
@@ -632,7 +631,7 @@
   },
   {
     "name": "Chattahoochee River National Recreation Area",
-    "description": "Today the river valley attracts us for so many reasons. Take a solitary walk to enjoy nature\u2019s display, raft leisurely through the rocky shoals with friends, fish the misty waters as the sun comes up, or have a picnic on a Sunday afternoon. Get Outdoors and experience your Chattahoochee River National Recreation Area as you have never done before.",
+    "description": "Today the river valley attracts us for so many reasons. Take a solitary walk to enjoy nature’s display, raft leisurely through the rocky shoals with friends, fish the misty waters as the sun comes up, or have a picnic on a Sunday afternoon. Get Outdoors and experience your Chattahoochee River National Recreation Area as you have never done before.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/chat/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C8083BD1-1DD8-B71B-0BB3FE7205EBC05D.jpg"
@@ -681,7 +680,7 @@
   },
   {
     "name": "City Of Rocks National Reserve",
-    "description": "Described by California Trail emigrants as \u201ca city of tall spires,\u201d \u201csteeple rocks,\u201d and \u201cthe silent city,\u201d this awe-inspiring landscape continues to captivate. Today, it beckons rock climbers, hikers, campers, hunters, and adventurers with its dramatic scenery, fascinating geology, and echoes of the Old West. The Silent City is ready for you to explore.",
+    "description": "Described by California Trail emigrants as “a city of tall spires,” “steeple rocks,” and “the silent city,” this awe-inspiring landscape continues to captivate. Today, it beckons rock climbers, hikers, campers, hunters, and adventurers with its dramatic scenery, fascinating geology, and echoes of the Old West. The Silent City is ready for you to explore.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/ciro/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/6969795B-C212-F59F-32D18D86BCB8ACDE.jpg"
@@ -702,7 +701,7 @@
   },
   {
     "name": "Colonial National Historical Park",
-    "description": "On May 13, 1607, Jamestown was established as the first permanent English settlement in North America. Three cultures came together \u2013 European, Virginia Indian and African\u2013to create a new society that would eventually seek independence from Great Britain. On October 19, 1781, American and French troops defeated the British at Yorktown in the last major battle of the American Revolutionary War.",
+    "description": "On May 13, 1607, Jamestown was established as the first permanent English settlement in North America. Three cultures came together – European, Virginia Indian and African–to create a new society that would eventually seek independence from Great Britain. On October 19, 1781, American and French troops defeated the British at Yorktown in the last major battle of the American Revolutionary War.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/colo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79E166-1DD8-B71B-0B513F9A61E8A9EB.jpg"
@@ -730,7 +729,7 @@
   },
   {
     "name": "Constitution Gardens",
-    "description": "Officially established in 1965, National Mall\u00a0and Memorial Parks actually protects\u00a0some of the older parkland in the National Park System.\u00a0Areas within\u00a0this premier park\u00a0provide visitors with ample opportunities to commemorate presidential legacies; honor the courage and sacrifice of war veterans; and celebrate the United States commitment to freedom and equality.",
+    "description": "Officially established in 1965, National Mall and Memorial Parks actually protects some of the older parkland in the National Park System. Areas within this premier park provide visitors with ample opportunities to commemorate presidential legacies; honor the courage and sacrifice of war veterans; and celebrate the United States commitment to freedom and equality.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/coga/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C815721-1DD8-B71B-0B6B84757C7F343E.jpg"
@@ -751,7 +750,7 @@
   },
   {
     "name": "Crater Lake National Park",
-    "description": "Crater Lake inspires awe. Native Americans witnessed its formation 7,700 years ago, when a violent eruption triggered the collapse of a tall peak. Scientists marvel at its purity\u2014fed by rain and snow, it\u2019s the deepest lake in the USA and one of the most pristine on Earth. Artists, photographers, and sightseers gaze in wonder at its blue water and stunning setting atop the Cascade Mountain Range.",
+    "description": "Crater Lake inspires awe. Native Americans witnessed its formation 7,700 years ago, when a violent eruption triggered the collapse of a tall peak. Scientists marvel at its purity—fed by rain and snow, it’s the deepest lake in the USA and one of the most pristine on Earth. Artists, photographers, and sightseers gaze in wonder at its blue water and stunning setting atop the Cascade Mountain Range.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/crla/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7B227E-1DD8-B71B-0BEECDD24771C381.jpg"
@@ -792,7 +791,7 @@
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/F7425874-D97F-BFD6-36581A36C8A7FF0D.jpg"
   },
   {
-    "name": "C\u00e9sar E. Ch\u00e1vez National Monument",
+    "name": "César E. Chávez National Monument",
     "description": "Yes, we can! Widely recognized as the most important Latino leader in the United States during the twentieth century, Cesar Chavez led farm workers and supporters in the establishment of the country's first permanent agricultural union. His leadership brought sustained international attention to the plight of U.S. farm workers, and secured for them higher wages and safer working conditions.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/cech/index.htm",
@@ -807,7 +806,7 @@
   },
   {
     "name": "De Soto National Memorial",
-    "description": "In May 1539, Conquistador Hernando de Soto\u2019s army of soldiers, hired mercenaries, craftsmen, and clergy made landfall in Tampa Bay. They were met with fierce resistance of indigenous people protecting their homelands. De Soto\u2019s quest for glory and gold would be a four year, four thousand mile odyssey of intrigue, warfare, disease, and discovery that would form the history of the United States.",
+    "description": "In May 1539, Conquistador Hernando de Soto’s army of soldiers, hired mercenaries, craftsmen, and clergy made landfall in Tampa Bay. They were met with fierce resistance of indigenous people protecting their homelands. De Soto’s quest for glory and gold would be a four year, four thousand mile odyssey of intrigue, warfare, disease, and discovery that would form the history of the United States.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/deso/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/5A51F02C-1DD8-B71B-0B73F14FDF6736AE.jpg"
@@ -870,14 +869,14 @@
   },
   {
     "name": "Ebey's Landing National Historical Reserve",
-    "description": "This stunning landscape on the Salish Sea, with its rich farmland and promising seaport, lured the earliest American pioneers north of the Columbia River to Ebey\u2019s Landing. Today Ebey\u2019s Landing National Historical Reserve preserves the historical, agricultural and cultural traditions of both Native and Euro-American \u2013 while offering spectacular opportunities for recreation.",
+    "description": "This stunning landscape on the Salish Sea, with its rich farmland and promising seaport, lured the earliest American pioneers north of the Columbia River to Ebey’s Landing. Today Ebey’s Landing National Historical Reserve preserves the historical, agricultural and cultural traditions of both Native and Euro-American – while offering spectacular opportunities for recreation.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/ebla/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C84BC00-1DD8-B71B-0BD2CA9CA44675E9.jpg"
   },
   {
     "name": "Edgar Allan Poe National Historic Site",
-    "description": "Described as horrifying, mystifying, and brilliant, Poe\u2019s writing has engaged readers all over the world. The six years Edgar Allan Poe lived in Philadelphia were his happiest and most productive. Yet Poe also struggled with bad luck, personal demons and his wife\u2019s illness. In Poe\u2019s humble home, reflect on the human spirit surmounting crushing obstacles, and celebrate Poe\u2019s astonishing creativity.",
+    "description": "Described as horrifying, mystifying, and brilliant, Poe’s writing has engaged readers all over the world. The six years Edgar Allan Poe lived in Philadelphia were his happiest and most productive. Yet Poe also struggled with bad luck, personal demons and his wife’s illness. In Poe’s humble home, reflect on the human spirit surmounting crushing obstacles, and celebrate Poe’s astonishing creativity.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/edal/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7AD5D5-1DD8-B71B-0BAF630A8D440C44.jpg"
@@ -898,14 +897,14 @@
   },
   {
     "name": "El Camino Real de Tierra Adentro National Historic Trail",
-    "description": "Travel along El Camino Real de Tierra Adentro National Historic Trail to experience and learn from a complicated legacy of 300 years of conflict, cooperation, and cultural exchange between a variety of empires\u2014European and non-European alike.",
+    "description": "Travel along El Camino Real de Tierra Adentro National Historic Trail to experience and learn from a complicated legacy of 300 years of conflict, cooperation, and cultural exchange between a variety of empires—European and non-European alike.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/elca/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7A6685-1DD8-B71B-0B18BFB9BABA6FCD.jpg"
   },
   {
     "name": "El Camino Real de los Tejas National Historic Trail",
-    "description": "Explore a diverse array of histories contained within El Camino Real de los Tejas\u2019 150-year life, including the Spanish struggle to missionize American Indian nations, the growth of cattle ranching in the Mexican period, and the movement for Texan independence and statehood.",
+    "description": "Explore a diverse array of histories contained within El Camino Real de los Tejas’ 150-year life, including the Spanish struggle to missionize American Indian nations, the growth of cattle ranching in the Mexican period, and the movement for Texan independence and statehood.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/elte/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7E7812-1DD8-B71B-0B21FD984B4C001C.jpg"
@@ -926,7 +925,7 @@
   },
   {
     "name": "Eleanor Roosevelt National Historic Site",
-    "description": "Visit the home of Eleanor Roosevelt. Here, Franklin and Eleanor entertained friends, the press, activists, and official state visitors in the relaxed atmosphere of Val-Kill. Explore the Roosevelt saga in the homes of Franklin and Eleanor Roosevelt, the exhibits at the nation\u2019s first Presidential Library, and over a thousand acres of gardens and trails.",
+    "description": "Visit the home of Eleanor Roosevelt. Here, Franklin and Eleanor entertained friends, the press, activists, and official state visitors in the relaxed atmosphere of Val-Kill. Explore the Roosevelt saga in the homes of Franklin and Eleanor Roosevelt, the exhibits at the nation’s first Presidential Library, and over a thousand acres of gardens and trails.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/elro/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/7CAE9A2C-B352-222A-CCF3649457EC357F.jpg"
@@ -1003,7 +1002,7 @@
   },
   {
     "name": "Ford's Theatre National Historic Site",
-    "description": "April 14, 1865. President Lincoln is assassinated at Ford\u2019s Theatre. Discover how a nation handled grief and loss, how everyday people experienced a national tragedy, and how we have remembered a fallen leader. Today, in partnership with Ford\u2019s Theatre Society, live dramatic productions highlight Lincoln\u2019s love of the theatre, and the power of stories to connect us to ourselves and our history.",
+    "description": "April 14, 1865. President Lincoln is assassinated at Ford’s Theatre. Discover how a nation handled grief and loss, how everyday people experienced a national tragedy, and how we have remembered a fallen leader. Today, in partnership with Ford’s Theatre Society, live dramatic productions highlight Lincoln’s love of the theatre, and the power of stories to connect us to ourselves and our history.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/foth/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C815286-1DD8-B71B-0BF2AD2960AE4AF6.jpg"
@@ -1052,7 +1051,7 @@
   },
   {
     "name": "Fort Laramie National Historic Site",
-    "description": "Originally established as a private fur trading fort in 1834, Fort Laramie evolved into the largest and best known military post on the Northern Plains before its abandonment in 1890. This \u201cgrand old post\u201d witnessed the entire sweeping saga of America\u2019s western expansion and Indian resistance to encroachment on their territories.",
+    "description": "Originally established as a private fur trading fort in 1834, Fort Laramie evolved into the largest and best known military post on the Northern Plains before its abandonment in 1890. This “grand old post” witnessed the entire sweeping saga of America’s western expansion and Indian resistance to encroachment on their territories.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/fola/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/A3251779-B98C-568E-63313006F25C5488.jpg"
@@ -1101,7 +1100,7 @@
   },
   {
     "name": "Fort Pulaski National Monument",
-    "description": "For much of the 19th century, masonry fortifications were the United States\u2019 main defense against overseas enemies. However, during the Civil War, new technology proved its superiority over these forts. Using rifled cannons, the U.S. Army compelled the Confederate garrison inside Fort Pulaski to surrender. The siege was a landmark experiment in the history of military science and invention.",
+    "description": "For much of the 19th century, masonry fortifications were the United States’ main defense against overseas enemies. However, during the Civil War, new technology proved its superiority over these forts. Using rifled cannons, the U.S. Army compelled the Confederate garrison inside Fort Pulaski to surrender. The siege was a landmark experiment in the history of military science and invention.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/fopu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C870DCA-1DD8-B71B-0B2574219E50694B.jpg"
@@ -1178,7 +1177,7 @@
   },
   {
     "name": "Frances Perkins National Monument",
-    "description": "Known as the first woman to hold a presidential cabinet position and the \u201cWoman behind the New Deal,\u201d Frances Perkins championed many labor rights that Americans enjoy today, including safety standards, Social Security, and shorter workweeks. Her impressive career and accomplishments, including as Secretary of Labor, opened the door for other women to hold high government positions.",
+    "description": "Known as the first woman to hold a presidential cabinet position and the “Woman behind the New Deal,” Frances Perkins championed many labor rights that Americans enjoy today, including safety standards, Social Security, and shorter workweeks. Her impressive career and accomplishments, including as Secretary of Labor, opened the door for other women to hold high government positions.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/frpe/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/2CC7130F-941F-CA23-DB43310BB9EA5AAB.jpg"
@@ -1213,7 +1212,7 @@
   },
   {
     "name": "Freedom Riders National Monument",
-    "description": "In 1961, a small interracial band of \u201cFreedom Riders\u201d challenged discriminatory laws requiring separation of the races in interstate travel. They were attacked by white segregationists, who firebombed the bus. Images of the attack appeared in hundreds of newspapers, shocking the American public and spurring the Federal Government to issue regulations banning segregation in interstate travel.",
+    "description": "In 1961, a small interracial band of “Freedom Riders” challenged discriminatory laws requiring separation of the races in interstate travel. They were attacked by white segregationists, who firebombed the bus. Images of the attack appeared in hundreds of newspapers, shocking the American public and spurring the Federal Government to issue regulations banning segregation in interstate travel.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/frri/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/89E23FDC-9BE7-D83A-83DEECF7210BD97D.jpg"
@@ -1234,7 +1233,7 @@
   },
   {
     "name": "Gateway Arch National Park",
-    "description": "Gateway Arch National Park commemorates President Jefferson\u2019s vision of a continental nation, the individuals and cultural groups who helped shape its history, St. Louis\u2019 role in westward expansion, and Dred and Harriet Scott, who sued for their freedom in the Old Courthouse.",
+    "description": "Gateway Arch National Park commemorates President Jefferson’s vision of a continental nation, the individuals and cultural groups who helped shape its history, St. Louis’ role in westward expansion, and Dred and Harriet Scott, who sued for their freedom in the Old Courthouse.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/jeff/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/200BA7E6-D782-9A97-A8C36AC178DEB31C.jpg"
@@ -1255,14 +1254,14 @@
   },
   {
     "name": "General Grant National Memorial",
-    "description": "The final resting place of President Ulysses S. Grant and his wife, Julia, is the largest mausoleum in North America. It testifies to a people\u2019s gratitude for the man who ended the bloodiest conflict in American history as Commanding General of the Union Army and then, as President of the United States, strove to heal a nation after a civil war and make rights for all citizens a reality.",
+    "description": "The final resting place of President Ulysses S. Grant and his wife, Julia, is the largest mausoleum in North America. It testifies to a people’s gratitude for the man who ended the bloodiest conflict in American history as Commanding General of the Union Army and then, as President of the United States, strove to heal a nation after a civil war and make rights for all citizens a reality.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/gegr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C855F85-1DD8-B71B-0B5A4A32E92B3730.jpg"
   },
   {
     "name": "George Rogers Clark National Historical Park",
-    "description": "The British flag would not be raised above Fort Sackville Feb. 25, 1779. At 10 A.M., the garrison surrendered to American Colonel George Rogers Clark. His American army, aided by French residents of the Illinois country, had marched through freezing floodwaters to gain this victory. The fort\u2019s capture assured United States claims to the frontier, an area nearly as large as the original 13 states.",
+    "description": "The British flag would not be raised above Fort Sackville Feb. 25, 1779. At 10 A.M., the garrison surrendered to American Colonel George Rogers Clark. His American army, aided by French residents of the Illinois country, had marched through freezing floodwaters to gain this victory. The fort’s capture assured United States claims to the frontier, an area nearly as large as the original 13 states.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/gero/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C795C28-1DD8-B71B-0BB8A40DEE3F49FD.jpg"
@@ -1304,7 +1303,7 @@
   },
   {
     "name": "Glacier Bay National Park & Preserve",
-    "description": "Covering 3.3 million acres of rugged mountains, dynamic glaciers, temperate rainforest, wild coastlines and deep sheltered fjords, Glacier Bay National Park and Preserve is known as Homeland to the Huna and Yakutat \u0141ing\u00edt, and is a highlight of Alaska's Inside Passage. From sea to summit, Glacier Bay offers limitless opportunities for adventure and inspiration.",
+    "description": "Covering 3.3 million acres of rugged mountains, dynamic glaciers, temperate rainforest, wild coastlines and deep sheltered fjords, Glacier Bay National Park and Preserve is known as Homeland to the Huna and Yakutat Łingít, and is a highlight of Alaska's Inside Passage. From sea to summit, Glacier Bay offers limitless opportunities for adventure and inspiration.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/glba/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C791618-1DD8-B71B-0B113FBF2EC1D614.jpg"
@@ -1339,7 +1338,7 @@
   },
   {
     "name": "Golden Gate National Recreation Area",
-    "description": "Experience a park so rich it supports 19 distinct ecosystems with over 2,000 plant and animal species. Go for a hike, enjoy a vista, have a picnic or learn about the centuries of overlapping history from California\u2019s indigenous cultures, Spanish colonialism, the Mexican Republic, US military expansion and the growth of San Francisco. All of this and more awaits you, so get out and find your park.",
+    "description": "Experience a park so rich it supports 19 distinct ecosystems with over 2,000 plant and animal species. Go for a hike, enjoy a vista, have a picnic or learn about the centuries of overlapping history from California’s indigenous cultures, Spanish colonialism, the Mexican Republic, US military expansion and the growth of San Francisco. All of this and more awaits you, so get out and find your park.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/goga/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7FEE17-1DD8-B71B-0BA285725552D8E3.jpg"
@@ -1360,7 +1359,7 @@
   },
   {
     "name": "Grand Canyon National Park",
-    "description": "Entirely within the state of Arizona, the park encompasses 278 miles (447 km) of the Colorado River and adjacent uplands. Located on the ancestral homelands of 11 present day Tribal Communities, Grand Canyon is one of the most spectacular examples of erosion anywhere in the world\u2014a mile deep canyon unmatched in the incomparable vistas it offers visitors from both north and south rims.",
+    "description": "Entirely within the state of Arizona, the park encompasses 278 miles (447 km) of the Colorado River and adjacent uplands. Located on the ancestral homelands of 11 present day Tribal Communities, Grand Canyon is one of the most spectacular examples of erosion anywhere in the world—a mile deep canyon unmatched in the incomparable vistas it offers visitors from both north and south rims.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/grca/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7B12D1-1DD8-B71B-0BCE0712F9CEA155.jpg"
@@ -1381,7 +1380,7 @@
   },
   {
     "name": "Grand Teton National Park",
-    "description": "Soaring over a landscape rich with wildlife, pristine lakes, and majestic alpine vistas, the Teton Range stands as a testament to generations of stewards. For over 11,000 years, communities have thrived in the valley known as Jackson Hole, turning these mountains into more than just peaks\u2014they embody imagination and enduring human connection.",
+    "description": "Soaring over a landscape rich with wildlife, pristine lakes, and majestic alpine vistas, the Teton Range stands as a testament to generations of stewards. For over 11,000 years, communities have thrived in the valley known as Jackson Hole, turning these mountains into more than just peaks—they embody imagination and enduring human connection.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/grte/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7FA4C5-1DD8-B71B-0B7FCC54E43FEE79.jpg"
@@ -1430,7 +1429,7 @@
   },
   {
     "name": "Green Springs",
-    "description": "Green Springs National Historic Landmark District in Virginia\u2019s Piedmont encompasses over 14,000 acres. Its landscapes and structures, privately owned today but viewable from public roads, offer a continuum of rural vernacular architecture with minimal alteration. Many of the farmsteads, often dating to the 19th century and connecting to one another visually, are preserved through easements.",
+    "description": "Green Springs National Historic Landmark District in Virginia’s Piedmont encompasses over 14,000 acres. Its landscapes and structures, privately owned today but viewable from public roads, offer a continuum of rural vernacular architecture with minimal alteration. Many of the farmsteads, often dating to the 19th century and connecting to one another visually, are preserved through easements.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/grsp/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/00E4FBBD-1DD8-B71B-0B674A3BE15ACF42.jpg"
@@ -1471,7 +1470,7 @@
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3DE8A223-C218-D1DA-CB8CF6266B45585F.jpg"
   },
   {
-    "name": "Haleakal\u0101 National Park",
+    "name": "Haleakalā National Park",
     "description": "This special place vibrates with stories of ancient and modern Hawaiian culture and protects the bond between the land and its people. The park also cares for endangered species, some of which exist nowhere else. Come visit this special place - renew your spirit amid stark volcanic landscapes and sub-tropical rain forest with an unforgettable hike through the backcountry.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/hale/index.htm",
@@ -1479,7 +1478,7 @@
   },
   {
     "name": "Hamilton Grange National Memorial",
-    "description": "Merchant\u2019s clerk, Revolutionary War soldier, first Secretary Treasury of the United States: Alexander Hamilton\u2019s life is memorialized at The Grange, the home he built on a country estate in uptown Manhattan. A faithful testament to early American architecture, it stands today as a tribute to its first owner\u2019s many accomplishments.",
+    "description": "Merchant’s clerk, Revolutionary War soldier, first Secretary Treasury of the United States: Alexander Hamilton’s life is memorialized at The Grange, the home he built on a country estate in uptown Manhattan. A faithful testament to early American architecture, it stands today as a tribute to its first owner’s many accomplishments.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/hagr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C80DC70-1DD8-B71B-0B9CB85978295244.jpg"
@@ -1507,14 +1506,14 @@
   },
   {
     "name": "Harriet Tubman National Historical Park",
-    "description": "Harriet Tubman was guided by a deep faith and devotion to family, freedom, and community. After emancipating herself and members of her family, she moved them from Ontario, Canada to Fleming and Auburn, New York in 1859. Central New York was a center for progressive thought, abolition, and women\u2019s suffrage where Tubman continued to fight for human rights and dignity until she died in 1913.",
+    "description": "Harriet Tubman was guided by a deep faith and devotion to family, freedom, and community. After emancipating herself and members of her family, she moved them from Ontario, Canada to Fleming and Auburn, New York in 1859. Central New York was a center for progressive thought, abolition, and women’s suffrage where Tubman continued to fight for human rights and dignity until she died in 1913.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/hart/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/9888332F-EE3A-20BB-813E0AEE37B6A52F.jpg"
   },
   {
     "name": "Harriet Tubman Underground Railroad National Historical Park",
-    "description": "Harriet Tubman was a deeply spiritual woman who lived her ideals and dedicated her life to freedom. She is the Underground Railroad\u2019s best known conductor and before the Civil War repeatedly risked her life to guide 70 enslaved people north to new lives of freedom. This new national historical park preserves the same landscapes that Tubman used to carry herself and others away from slavery.",
+    "description": "Harriet Tubman was a deeply spiritual woman who lived her ideals and dedicated her life to freedom. She is the Underground Railroad’s best known conductor and before the Civil War repeatedly risked her life to guide 70 enslaved people north to new lives of freedom. This new national historical park preserves the same landscapes that Tubman used to carry herself and others away from slavery.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/hatu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/351D33D4-1DD8-B71B-0B2D84861E200164.jpg"
@@ -1527,15 +1526,15 @@
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79AC3C-1DD8-B71B-0BB54731F4D0538A.jpg"
   },
   {
-    "name": "Hawai\u02bbi Volcanoes National Park",
-    "description": "Hawai\u2018i Volcanoes National Park protects some of the most unique geological, biological, and cherished cultural landscapes in the world. Extending from sea level to 13,680 feet, the park encompasses the summits of two of the world's most active volcanoes - K\u012blauea and Mauna Loa - and is a designated International Biosphere Reserve and UNESCO World Heritage Site.",
+    "name": "Hawaiʻi Volcanoes National Park",
+    "description": "Hawai‘i Volcanoes National Park protects some of the most unique geological, biological, and cherished cultural landscapes in the world. Extending from sea level to 13,680 feet, the park encompasses the summits of two of the world's most active volcanoes - Kīlauea and Mauna Loa - and is a designated International Biosphere Reserve and UNESCO World Heritage Site.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/havo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C4E8415A-08E5-5976-833F494FFCA3FFE6.jpg"
   },
   {
     "name": "Herbert Hoover National Historic Site",
-    "description": "Orphaned at age nine, Herbert Hoover left West Branch never to live here again. In later years, he returned to his humble birthplace to celebrate his long career of public service. A memorial landscape remains to tell his story: how community, hard work, honesty, and usefulness to others opened a world of opportunity\u2014 and the presidency of the United States\u2014 to a child of simple beginnings.",
+    "description": "Orphaned at age nine, Herbert Hoover left West Branch never to live here again. In later years, he returned to his humble birthplace to celebrate his long career of public service. A memorial landscape remains to tell his story: how community, hard work, honesty, and usefulness to others opened a world of opportunity— and the presidency of the United States— to a child of simple beginnings.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/heho/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7924AC-1DD8-B71B-0BEDCDE2B64225D5.jpg"
@@ -1549,7 +1548,7 @@
   },
   {
     "name": "Home Of Franklin D Roosevelt National Historic Site",
-    "description": "Home to the 32nd and longest-serving president of the United States, Franklin D. Roosevelt returned to Hyde Park often, drawing on this place to renew his spirit during times of personal and political crisis. Explore the Roosevelt saga in the homes of Franklin and Eleanor Roosevelt, the exhibits at the nation\u2019s first Presidential Library, and over a thousand acres of gardens and trails.",
+    "description": "Home to the 32nd and longest-serving president of the United States, Franklin D. Roosevelt returned to Hyde Park often, drawing on this place to renew his spirit during times of personal and political crisis. Explore the Roosevelt saga in the homes of Franklin and Eleanor Roosevelt, the exhibits at the nation’s first Presidential Library, and over a thousand acres of gardens and trails.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/hofr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/236415B1-F65A-709B-C946C5447868BB66.jpg"
@@ -1563,7 +1562,7 @@
   },
   {
     "name": "Honouliuli National Historic Site",
-    "description": "Ten years after Hawaii's largest and longest-run WWII POW and incarceration camp was designated as a National Park, per the Proclamation, Honouliuli is a \"powerful reminder of the need to protect civil liberties in times of conflict... It is a\u00a0place to reflect on wartime experiences and recommit ourselves to the pursuit of freedom and justice.\u201d Join us in continuing this legacy.",
+    "description": "Ten years after Hawaii's largest and longest-run WWII POW and incarceration camp was designated as a National Park, per the Proclamation, Honouliuli is a \"powerful reminder of the need to protect civil liberties in times of conflict... It is a place to reflect on wartime experiences and recommit ourselves to the pursuit of freedom and justice.” Join us in continuing this legacy.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/hono/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C86BF53-1DD8-B71B-0BB227CD8FE92BD2.png"
@@ -1584,14 +1583,14 @@
   },
   {
     "name": "Horseshoe Bend National Military Park",
-    "description": "On 27 March 1814, Major General Andrew Jackson \u2018s army of 3,300 men attacked Chief Menawa\u2019s 1,000 Red Stick Creek warriors fortified in a horseshoe shaped bend of the Tallapoosa River. Over 800 Red Sticks died that day. The battle ended the Creek War, resulted in a land cession of 23,000,000 acres to the United States and created a national hero of Andrew Jackson.",
+    "description": "On 27 March 1814, Major General Andrew Jackson ‘s army of 3,300 men attacked Chief Menawa’s 1,000 Red Stick Creek warriors fortified in a horseshoe shaped bend of the Tallapoosa River. Over 800 Red Sticks died that day. The battle ended the Creek War, resulted in a land cession of 23,000,000 acres to the United States and created a national hero of Andrew Jackson.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/hobe/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C87586A-1DD8-B71B-0BDE37630D876F7D.jpg"
   },
   {
     "name": "Hot Springs National Park",
-    "description": "Hot Springs National Park has a rich cultural past. The grand architecture of our historic bathhouses is equally matched by the natural curiosities that have been drawing people here for hundreds of years. Ancient thermal springs, mountain views, incredible geology, forested hikes, and abundant creeks \u2013 all in the middle of town \u2013 make Hot Springs National Park a unique and beautiful destination.",
+    "description": "Hot Springs National Park has a rich cultural past. The grand architecture of our historic bathhouses is equally matched by the natural curiosities that have been drawing people here for hundreds of years. Ancient thermal springs, mountain views, incredible geology, forested hikes, and abundant creeks – all in the middle of town – make Hot Springs National Park a unique and beautiful destination.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/hosp/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C0D8DFDD-F151-C5B0-3004B0088C98BA5A.jpg"
@@ -1605,7 +1604,7 @@
   },
   {
     "name": "Hubbell Trading Post National Historic Site",
-    "description": "W\u00f3shd\u0119\u0301\u0119\u0301, please come in where the squeaky wooden floors greet your entry into the oldest operating Trading Post on the Navajo Nation. As your eyes adjust to the dim light in the \"bullpen\", you'll find you've just entered a mercantile. Hubbell's in Ganado has been selling goods and trading Native American Art since 1878. Discover Hubbell Trading Post NHS, sheep, rugs, jewelry and so much more...",
+    "description": "Wóshdę́ę́, please come in where the squeaky wooden floors greet your entry into the oldest operating Trading Post on the Navajo Nation. As your eyes adjust to the dim light in the \"bullpen\", you'll find you've just entered a mercantile. Hubbell's in Ganado has been selling goods and trading Native American Art since 1878. Discover Hubbell Trading Post NHS, sheep, rugs, jewelry and so much more...",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/hutr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7C91D7-1DD8-B71B-0B54C08912784B29.jpg"
@@ -1633,21 +1632,21 @@
   },
   {
     "name": "Indiana Dunes National Park",
-    "description": "Lake Michigan's might has influenced Indiana Dunes for millennia. Wind and waves have shaped the land, leaving a rich mosaic of habitats along these 15 miles of Indiana coast. Over 50 miles of trails lead through shifting sand dunes, quiet woodlands, sunny prairies and lush wetlands. Known for its striking plant and bird diversity, it's easy to find inspiration throughout the park\u2019s 16,000 acres.",
+    "description": "Lake Michigan's might has influenced Indiana Dunes for millennia. Wind and waves have shaped the land, leaving a rich mosaic of habitats along these 15 miles of Indiana coast. Over 50 miles of trails lead through shifting sand dunes, quiet woodlands, sunny prairies and lush wetlands. Known for its striking plant and bird diversity, it's easy to find inspiration throughout the park’s 16,000 acres.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/indu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/9253EDFB-AAFD-E111-B985CD2747F5C48F.jpg"
   },
   {
     "name": "Isle Royale National Park",
-    "description": "Explore a rugged, isolated island far from our connected communities. Isle Royale offers adventures for backpackers, hikers, boaters, paddlers, and divers. Cross Lake Superior and make a commitment: Become a part of this island, and let it become a part of you. Find peace and refuge in island wilderness \u2013 because Isle Royale, in turn, finds refuge in us. Help Isle Royale stay wild.",
+    "description": "Explore a rugged, isolated island far from our connected communities. Isle Royale offers adventures for backpackers, hikers, boaters, paddlers, and divers. Cross Lake Superior and make a commitment: Become a part of this island, and let it become a part of you. Find peace and refuge in island wilderness – because Isle Royale, in turn, finds refuge in us. Help Isle Royale stay wild.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/isro/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/6059CAD8-02E8-2E00-2922DF84800167E0.jpg"
   },
   {
-    "name": "I\u00f1upiat Heritage Center",
-    "description": "On the rooftop of the world, the I\u00f1upiat Heritage Center in Barrow, Alaska, tells the story of the I\u00f1upiat people. They have thrived for thousands of years in one of the most extreme climates on Earth, hunting the bowhead, or \"Agviq.\" In the 19th century, the quiet northern seas swarmed with commercial whalemen from New England, who also sought the bowhead for its valuable baleen and blubber.",
+    "name": "Iñupiat Heritage Center",
+    "description": "On the rooftop of the world, the Iñupiat Heritage Center in Barrow, Alaska, tells the story of the Iñupiat people. They have thrived for thousands of years in one of the most extreme climates on Earth, hunting the bowhead, or \"Agviq.\" In the 19th century, the quiet northern seas swarmed with commercial whalemen from New England, who also sought the bowhead for its valuable baleen and blubber.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/inup/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8130DF-1DD8-B71B-0B99B1F06EB07E76.jpg"
@@ -1661,7 +1660,7 @@
   },
   {
     "name": "Jean Lafitte National Historical Park and Preserve",
-    "description": "In Jean Lafitte's day, silver and gold filled a pirate's treasure chest, but today's treasures are people, places, and memories. Discover New Orleans\u2019 rich cultural mix. Learn Cajun traditions from people who live them. Watch an alligator bask on a bayou\u2019s bank. Walk in the footsteps of the men who fought at 1815\u2019s Battle of New Orleans. Follow the link to discover the treasure of Jean Lafitte.",
+    "description": "In Jean Lafitte's day, silver and gold filled a pirate's treasure chest, but today's treasures are people, places, and memories. Discover New Orleans’ rich cultural mix. Learn Cajun traditions from people who live them. Watch an alligator bask on a bayou’s bank. Walk in the footsteps of the men who fought at 1815’s Battle of New Orleans. Follow the link to discover the treasure of Jean Lafitte.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/jela/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C845D16-1DD8-B71B-0B04181AABF4F0C1.jpg"
@@ -1689,14 +1688,14 @@
   },
   {
     "name": "John Fitzgerald Kennedy National Historic Site",
-    "description": "JFK\u2019s parents never expected that their second son would grow up to be president. Yet in his birthplace home he learned values that inspired a life in public service. His mother, Rose Kennedy, recreated her family\u2019s first home to share her memories of those early years with visitors. We commemorate not only his early life, but the ideas and principles he left behind.",
+    "description": "JFK’s parents never expected that their second son would grow up to be president. Yet in his birthplace home he learned values that inspired a life in public service. His mother, Rose Kennedy, recreated her family’s first home to share her memories of those early years with visitors. We commemorate not only his early life, but the ideas and principles he left behind.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/jofi/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C820F63-1DD8-B71B-0BA806C2D92161BF.jpg"
   },
   {
     "name": "John Muir National Historic Site",
-    "description": "John Muir\u2019s life was a tapestry of roles\u2014fruit rancher, family man, writer\u2014each interwoven with his deep love for nature. As one of America\u2019s most influential naturalists, Muir was more than just an observer of the wilderness; he was its fiercest advocate. His passion for the land drove him to protect the places he held dear, ensuring that future generations could experience their beauty.",
+    "description": "John Muir’s life was a tapestry of roles—fruit rancher, family man, writer—each interwoven with his deep love for nature. As one of America’s most influential naturalists, Muir was more than just an observer of the wilderness; he was its fiercest advocate. His passion for the land drove him to protect the places he held dear, ensuring that future generations could experience their beauty.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/jomu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79DF6A-1DD8-B71B-0B64749528CB4952.jpg"
@@ -1730,8 +1729,8 @@
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79B6CD-1DD8-B71B-0BB2B4265DD8C023.jpg"
   },
   {
-    "name": "Kaloko-Honok\u014dhau National Historical Park",
-    "description": "Along the western coastline of the Island of Hawai\u02bbi lies the hot, rugged lava of Kaloko-Honok\u014dhau. This seemingly barren and harsh landscape does not appear to be suitable for human existence, and yet, long before written history, the Hawaiian people built a thriving settlement upon this \u02bba\u02bb\u0101 lava.",
+    "name": "Kaloko-Honokōhau National Historical Park",
+    "description": "Along the western coastline of the Island of Hawaiʻi lies the hot, rugged lava of Kaloko-Honokōhau. This seemingly barren and harsh landscape does not appear to be suitable for human existence, and yet, long before written history, the Hawaiian people built a thriving settlement upon this ʻaʻā lava.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/kaho/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C821C0B-1DD8-B71B-0B75B0451911CCAA.jpg"
@@ -1843,7 +1842,7 @@
   },
   {
     "name": "Lake Meredith National Recreation Area",
-    "description": "Nestled within the Texas Plains, Lake Meredith National Recreation Area serves as a tranquil oasis amid the vast, arid grasslands. Over centuries, the Canadian River has sculpted breathtaking 200-foot canyons\u2014known as breaks\u2014that now encircle the lake. These secluded coves create diverse ecosystems, supporting seven distinct habitats that sustain a rich array of wildlife, including migratory birds",
+    "description": "Nestled within the Texas Plains, Lake Meredith National Recreation Area serves as a tranquil oasis amid the vast, arid grasslands. Over centuries, the Canadian River has sculpted breathtaking 200-foot canyons—known as breaks—that now encircle the lake. These secluded coves create diverse ecosystems, supporting seven distinct habitats that sustain a rich array of wildlife, including migratory birds",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/lamr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7EF8FA-1DD8-B71B-0B0A1337DFDA3A87.jpg"
@@ -1892,7 +1891,7 @@
   },
   {
     "name": "Lincoln Home National Historic Site",
-    "description": "Abraham Lincoln believed in the ideal that everyone in America should have the opportunity to improve their economic and social condition. Lincoln\u2019s life was the embodiment of that idea. We know him as the sixteenth president but he was also a spouse, parent, and neighbor who experienced the same hopes, dreams, and challenges of life that are still experienced by many people today.",
+    "description": "Abraham Lincoln believed in the ideal that everyone in America should have the opportunity to improve their economic and social condition. Lincoln’s life was the embodiment of that idea. We know him as the sixteenth president but he was also a spouse, parent, and neighbor who experienced the same hopes, dreams, and challenges of life that are still experienced by many people today.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/liho/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/519B9677-A5DA-1824-C11B59B1C565188B.jpg"
@@ -1927,14 +1926,14 @@
   },
   {
     "name": "Longfellow House Washington's Headquarters National Historic Site",
-    "description": "Longfellow House-Washington's Headquarters National Historic Site preserves a remarkable Georgian house whose occupants shaped our nation. It was a site of colonial enslavement and community activism, George Washington\u2019s first long-term headquarters of the American Revolution, and the place where Henry Wadsworth Longfellow wrote his canon of 19th-century American literature.",
+    "description": "Longfellow House-Washington's Headquarters National Historic Site preserves a remarkable Georgian house whose occupants shaped our nation. It was a site of colonial enslavement and community activism, George Washington’s first long-term headquarters of the American Revolution, and the place where Henry Wadsworth Longfellow wrote his canon of 19th-century American literature.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/long/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3F81541A-CC01-7548-8F7723937ECD58D8.jpg"
   },
   {
     "name": "Lowell National Historical Park",
-    "description": "Lowell\u2019s water-powered textile mills catapulted the nation \u2013 including immigrant families and early female factory workers \u2013 into an uncertain new industrial era. Nearly 200 years later, the changes that began here still reverberate in our shifting global economy. Explore Lowell, a living testament to the dynamic human story of the industrial revolution.",
+    "description": "Lowell’s water-powered textile mills catapulted the nation – including immigrant families and early female factory workers – into an uncertain new industrial era. Nearly 200 years later, the changes that began here still reverberate in our shifting global economy. Explore Lowell, a living testament to the dynamic human story of the industrial revolution.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/lowe/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/540E0A41-958B-903A-9034B50FD25C4D69.jpg"
@@ -1962,7 +1961,7 @@
   },
   {
     "name": "Maggie L Walker National Historic Site",
-    "description": "Maggie Lena Walker devoted her life to civil rights advancement, economic empowerment, and educational opportunities for Jim Crow-era African Americans and women. As a bank president, newspaper editor, and fraternal leader, Walker served as an inspiration of pride and progress. Today, Walker\u2019s home is preserved as a tribute to her enduring legacy of vision, courage, and determination.",
+    "description": "Maggie Lena Walker devoted her life to civil rights advancement, economic empowerment, and educational opportunities for Jim Crow-era African Americans and women. As a bank president, newspaper editor, and fraternal leader, Walker served as an inspiration of pride and progress. Today, Walker’s home is preserved as a tribute to her enduring legacy of vision, courage, and determination.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/mawa/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/E74592AC-CD3E-4D60-942681DBCAC34FCD.jpg"
@@ -1990,7 +1989,7 @@
   },
   {
     "name": "Manhattan Project National Historical Park",
-    "description": "The Manhattan Project is one of the most transformative events of the 20th century. It ushered in the nuclear age with the development of the world\u2019s first atomic bombs. Most of this development took place in three secret communities located in Hanford, WA, Los Alamos, NM and Oak Ridge, TN. Today, you can visit these three sites that make up Manhattan Project National Historical Park.",
+    "description": "The Manhattan Project is one of the most transformative events of the 20th century. It ushered in the nuclear age with the development of the world’s first atomic bombs. Most of this development took place in three secret communities located in Hanford, WA, Los Alamos, NM and Oak Ridge, TN. Today, you can visit these three sites that make up Manhattan Project National Historical Park.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/mapr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/E310F561-EC32-2AE8-9AE265815F917C5C.jpg"
@@ -2025,14 +2024,14 @@
   },
   {
     "name": "Martin Van Buren National Historic Site",
-    "description": "Born in Kinderhook, New York, in 1782, Martin Van Buren was the first president born a US citizen. His life spanned the American Revolution to the Civil War and\u00a0was shaped by the most important issues of the era: US expansionism and the removal of Indigenous people, states\u2019 rights, and slavery. This historic landscape invites reflection on the many lives and legacies woven into its past.",
+    "description": "Born in Kinderhook, New York, in 1782, Martin Van Buren was the first president born a US citizen. His life spanned the American Revolution to the Civil War and was shaped by the most important issues of the era: US expansionism and the removal of Indigenous people, states’ rights, and slavery. This historic landscape invites reflection on the many lives and legacies woven into its past.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/mava/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/62DC5B9E-BE8C-E397-36BEC4EBBC266D2A.jpg"
   },
   {
     "name": "Mary McLeod Bethune Council House National Historic Site",
-    "description": "Mary McLeod Bethune achieved her greatest recognition at the Washington, DC townhouse that is now this National Historic Site. The Council House was the first headquarters of the National Council of Negro Women (NCNW) and was Bethune\u2019s last home in Washington, DC. From here, Bethune and the NCNW spearheaded strategies and developed programs that advanced the interests of African American women.",
+    "description": "Mary McLeod Bethune achieved her greatest recognition at the Washington, DC townhouse that is now this National Historic Site. The Council House was the first headquarters of the National Council of Negro Women (NCNW) and was Bethune’s last home in Washington, DC. From here, Bethune and the NCNW spearheaded strategies and developed programs that advanced the interests of African American women.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/mamc/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C83EDB8-1DD8-B71B-0B904FDCAD5D7937.jpg"
@@ -2130,14 +2129,14 @@
   },
   {
     "name": "Morristown National Historical Park",
-    "description": "Morristown National Historical Park commemorates the sites of General Washington and the Continental army\u2019s winter encampment of December 1779 to June 1780, where they survived through what would be the coldest winter on record. The park also maintains a museum & library collection related to the encampments & George Washington, as well as items relating to pre- and post-Revolutionary America.",
+    "description": "Morristown National Historical Park commemorates the sites of General Washington and the Continental army’s winter encampment of December 1779 to June 1780, where they survived through what would be the coldest winter on record. The park also maintains a museum & library collection related to the encampments & George Washington, as well as items relating to pre- and post-Revolutionary America.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/morr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C804A08-1DD8-B71B-0B73C1F0A0ACAD7A.jpg"
   },
   {
     "name": "Mount Rainier National Park",
-    "description": "Ascending to 14,410 feet above sea level, Mount Rainier stands as an icon in the Washington landscape. An active volcano, Mount Rainier is the most glaciated peak in the contiguous U.S.A., spawning five major rivers. Subalpine wildflower meadows ring the icy volcano while ancient forest cloaks Mount Rainier\u2019s lower slopes. Wildlife abounds in the park\u2019s ecosystems. A lifetime of discovery awaits.",
+    "description": "Ascending to 14,410 feet above sea level, Mount Rainier stands as an icon in the Washington landscape. An active volcano, Mount Rainier is the most glaciated peak in the contiguous U.S.A., spawning five major rivers. Subalpine wildflower meadows ring the icy volcano while ancient forest cloaks Mount Rainier’s lower slopes. Wildlife abounds in the park’s ecosystems. A lifetime of discovery awaits.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/mora/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/49F34094-B893-7DD6-5AE0F0220724B0EF.jpg"
@@ -2179,14 +2178,14 @@
   },
   {
     "name": "National Capital Parks-East",
-    "description": "Welcome to National Capital Parks \u2014 East. We invite you to journey to the parks east of the Capital of Washington, D.C. National Capital Parks \u2014 East consists of 14 park sites, parkways and statuary covering more than 8,000 acres of historic, cultural, and recreational parklands from Capitol Hill to the nearby Maryland suburbs.",
+    "description": "Welcome to National Capital Parks — East. We invite you to journey to the parks east of the Capital of Washington, D.C. National Capital Parks — East consists of 14 park sites, parkways and statuary covering more than 8,000 acres of historic, cultural, and recreational parklands from Capitol Hill to the nearby Maryland suburbs.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/nace/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C82B782-1DD8-B71B-0B692035768B7064.jpg"
   },
   {
     "name": "National Mall and Memorial Parks",
-    "description": "This is where the nation comes to remember and where history is made. As \u201cAmerica\u2019s Front Yard,\u201d the National Mall and Memorial Parks is home to many of our country\u2019s most iconic memorials telling the story of people and events that shaped us as a nation. Each year, millions of people come to recreate, commemorate presidential legacies, honor our veterans, and make their voices heard.",
+    "description": "This is where the nation comes to remember and where history is made. As “America’s Front Yard,” the National Mall and Memorial Parks is home to many of our country’s most iconic memorials telling the story of people and events that shaped us as a nation. Each year, millions of people come to recreate, commemorate presidential legacies, honor our veterans, and make their voices heard.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/nama/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C821F64-1DD8-B71B-0B7C29BA3E4F549E.jpg"
@@ -2221,21 +2220,21 @@
   },
   {
     "name": "New Bedford Whaling National Historical Park",
-    "description": "\"The town itself is perhaps the dearest place to live in, in all New England..nowhere in all America will you find more patrician-like houses, parks and gardens more opulent, than in New Bedford\u2026all these brave houses and flowery gardens came from the Atlantic, Pacific, and Indian oceans. One and all, they were harpooned and dragged up hither from the bottom of the sea.\" H. Melville, \"Moby-Dick\"",
+    "description": "\"The town itself is perhaps the dearest place to live in, in all New England..nowhere in all America will you find more patrician-like houses, parks and gardens more opulent, than in New Bedford…all these brave houses and flowery gardens came from the Atlantic, Pacific, and Indian oceans. One and all, they were harpooned and dragged up hither from the bottom of the sea.\" H. Melville, \"Moby-Dick\"",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/nebe/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7B58A6-1DD8-B71B-0BECE805AD9FBFDA.png"
   },
   {
     "name": "New England National Scenic Trail",
-    "description": "From the Sound to the summits: the New England Trail covers 235 miles from Long Island Sound across long ridges to scenic mountain summits in Connecticut and Massachusetts. The trail offers panoramic vistas and close-ups of New England\u2019s natural and cultural landscape: traprock ridges, historic village centers, farmlands, unfragmented forests, quiet streams, steep river valleys and waterfalls.",
+    "description": "From the Sound to the summits: the New England Trail covers 235 miles from Long Island Sound across long ridges to scenic mountain summits in Connecticut and Massachusetts. The trail offers panoramic vistas and close-ups of New England’s natural and cultural landscape: traprock ridges, historic village centers, farmlands, unfragmented forests, quiet streams, steep river valleys and waterfalls.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/neen/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/498B6E55-9C9A-07E3-AB0896A77C5485DD.jpg"
   },
   {
     "name": "New Jersey Pinelands National Reserve",
-    "description": "This is truly a special place. It's classified as a United States Biosphere Reserve and in 1978 was established by Congress as the country\u2019s first National Reserve. It includes portions of seven southern New Jersey counties, and encompasses over one-million acres of farms, forests and wetlands. It contains 56 communities, from hamlets to suburbs, with over 700,000 permanent residents.",
+    "description": "This is truly a special place. It's classified as a United States Biosphere Reserve and in 1978 was established by Congress as the country’s first National Reserve. It includes portions of seven southern New Jersey counties, and encompasses over one-million acres of farms, forests and wetlands. It contains 56 communities, from hamlets to suburbs, with over 700,000 permanent residents.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/pine/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/6A36EF6A-1DD8-B71B-0B6EF527BB26F6F0.jpg"
@@ -2263,7 +2262,7 @@
   },
   {
     "name": "Nez Perce National Historical Park",
-    "description": "Since time immemorial, the valleys, prairies, mountains, and plateaus of the inland northwest have been home to the nim\u00edipuu (Nez Perce) people. Extremely resilient, they survived the settling of the United States and adapted to a changed world. Nez Perce National Historical Park consists of 38 places important to the history and culture of the nim\u00edipuu. Explore these places. Learn their stories.",
+    "description": "Since time immemorial, the valleys, prairies, mountains, and plateaus of the inland northwest have been home to the nimíipuu (Nez Perce) people. Extremely resilient, they survived the settling of the United States and adapted to a changed world. Nez Perce National Historical Park consists of 38 places important to the history and culture of the nimíipuu. Explore these places. Learn their stories.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/nepe/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C87B14F-1DD8-B71B-0B562F4DFC141863.jpg"
@@ -2347,7 +2346,7 @@
   },
   {
     "name": "Oregon Caves National Monument & Preserve",
-    "description": "Deep within the Siskiyou Mountains are dark, twisting passages that await your discovery. Eons of acidic water seeping into marble rock created and decorated the wondrous \u201cMarble Halls of Oregon.\u201d Join a tour, get a taste of what caving is all about, and explore a mountain from the inside and out!",
+    "description": "Deep within the Siskiyou Mountains are dark, twisting passages that await your discovery. Eons of acidic water seeping into marble rock created and decorated the wondrous “Marble Halls of Oregon.” Join a tour, get a taste of what caving is all about, and explore a mountain from the inside and out!",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/orca/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8507A5-1DD8-B71B-0B921718CA5479A5.jpg"
@@ -2529,7 +2528,7 @@
   },
   {
     "name": "Poverty Point National Monument",
-    "description": "Now a nearly forgotten culture, Poverty Point at its peak 3,000 years ago was part of an enormous trading network that stretched for hundreds of miles across the continent. It was - and is - also an engineering marvel, the product of five million hours of labor. Explore the culture of a highly sophisticated people who left behind one of North America\u2019s most important archeological sites.",
+    "description": "Now a nearly forgotten culture, Poverty Point at its peak 3,000 years ago was part of an enormous trading network that stretched for hundreds of miles across the continent. It was - and is - also an engineering marvel, the product of five million hours of labor. Explore the culture of a highly sophisticated people who left behind one of North America’s most important archeological sites.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/popo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/093C6AE3-1DD8-B71B-0BF4825496F87868.jpg"
@@ -2557,21 +2556,21 @@
   },
   {
     "name": "Pullman National Historical Park",
-    "description": "In a growing Chicago neighborhood, diverse people and stories intertwined. All were seeking opportunity. Some succeeded. Others were limited\u2014by race, gender, or economic status. Their stories came together in Pullman, a planned industrial community famed for its urban design and architecture.",
+    "description": "In a growing Chicago neighborhood, diverse people and stories intertwined. All were seeking opportunity. Some succeeded. Others were limited—by race, gender, or economic status. Their stories came together in Pullman, a planned industrial community famed for its urban design and architecture.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/pull/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/20E409DD-D017-0B84-52AEE57620BCD240.jpg"
   },
   {
-    "name": "Pu\u02bbuhonua o H\u014dnaunau National Historical Park",
-    "description": "Imagine you had just broken the sacred laws, the kapu, and the only punishment was death. Your only chance of survival is to elude your pursuers and reach the Pu\u02bbuhonua, a place of refuge. The Pu\u02bbuhonua protected the kapu breaker, defeated warriors, as well as civilians during the time of battle. No physical harm could come to those who reached the boundaries of the Pu\u02bbuhonua.",
+    "name": "Puʻuhonua o Hōnaunau National Historical Park",
+    "description": "Imagine you had just broken the sacred laws, the kapu, and the only punishment was death. Your only chance of survival is to elude your pursuers and reach the Puʻuhonua, a place of refuge. The Puʻuhonua protected the kapu breaker, defeated warriors, as well as civilians during the time of battle. No physical harm could come to those who reached the boundaries of the Puʻuhonua.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/puho/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/B9D5C440-9B40-6C05-5FCF4EFB33F1FD16.jpg"
   },
   {
-    "name": "Pu\u02bbukohol\u0101 Heiau National Historic Site",
-    "description": "How many places in America can you walk in the footsteps of a king? Where else has a stranded sailor risen up to become a great chief over an entire island? Where else can you experience the culminating event of a people, foretold from centuries past? Where else can you stand on a beach and watch as sharks pass over a submerged temple? Experience all this and much more \u2013 only at Pu'ukohol\u0101 Heiau!",
+    "name": "Puʻukoholā Heiau National Historic Site",
+    "description": "How many places in America can you walk in the footsteps of a king? Where else has a stranded sailor risen up to become a great chief over an entire island? Where else can you experience the culminating event of a people, foretold from centuries past? Where else can you stand on a beach and watch as sharks pass over a submerged temple? Experience all this and much more – only at Pu'ukoholā Heiau!",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/puhe/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/46C8006D-B528-C45C-00A2A572EF94584A.jpg"
@@ -2592,14 +2591,14 @@
   },
   {
     "name": "Redwood National and State Parks",
-    "description": "Renowned for the world\u2019s tallest trees, Redwood\u2019s landscapes span from open prairies and oak woodlands to pristine rivers and untamed coastline. This ancient home has supported people for thousands of years. The National Park Service and California State Parks now work to safeguard and rejuvenate these lands for everyone\u2019s enjoyment, learning, and inspiration.",
+    "description": "Renowned for the world’s tallest trees, Redwood’s landscapes span from open prairies and oak woodlands to pristine rivers and untamed coastline. This ancient home has supported people for thousands of years. The National Park Service and California State Parks now work to safeguard and rejuvenate these lands for everyone’s enjoyment, learning, and inspiration.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/redw/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/CD69DD56-E050-4F4E-DDF622317D38250E.jpg"
   },
   {
     "name": "Richmond National Battlefield Park",
-    "description": "The center of Confederate manufacturing fueled a modern war, one of the South\u2019s largest hospitals gave care to the sick and wounded, and armies battled on open fields and in miles of defensive earthworks. From 1861 to 1865, Richmond\u2019s fate would determine America\u2019s future.",
+    "description": "The center of Confederate manufacturing fueled a modern war, one of the South’s largest hospitals gave care to the sick and wounded, and armies battled on open fields and in miles of defensive earthworks. From 1861 to 1865, Richmond’s fate would determine America’s future.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/rich/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79860B-1DD8-B71B-0BF764186C0B45DF.jpg"
@@ -2613,7 +2612,7 @@
   },
   {
     "name": "River Raisin National Battlefield Park",
-    "description": "River Raisin NBP preserves, commemorates, and interprets the January 1813 battles of the War of 1812 and their aftermath. Battles that resulted in the greatest victory for Tecumseh\u2019s Confederation and the British and the greatest defeat for the U.S. The aftermath led to U.S. Indian laws that forced the removal, relocation, and assimilation of native nations, an aftermath that continues today.",
+    "description": "River Raisin NBP preserves, commemorates, and interprets the January 1813 battles of the War of 1812 and their aftermath. Battles that resulted in the greatest victory for Tecumseh’s Confederation and the British and the greatest defeat for the U.S. The aftermath led to U.S. Indian laws that forced the removal, relocation, and assimilation of native nations, an aftermath that continues today.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/rira/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7C380D-1DD8-B71B-0BB6B63A283B9B55.jpg"
@@ -2711,7 +2710,7 @@
   },
   {
     "name": "Salinas Pueblo Missions National Monument",
-    "description": "Tucked away in the middle of New Mexico you\u2019ll find Salinas Pueblo Missions National Monument. Its three distinct sites offer a glimpse into a unique time in history\u2014a time entrenched with cultural borrowing, conflict and struggles. These sites continue to stand as reminders of the Spanish and Pueblo peoples\u2019 early encounters and prompt exploration of today\u2019s interactions among different people.",
+    "description": "Tucked away in the middle of New Mexico you’ll find Salinas Pueblo Missions National Monument. Its three distinct sites offer a glimpse into a unique time in history—a time entrenched with cultural borrowing, conflict and struggles. These sites continue to stand as reminders of the Spanish and Pueblo peoples’ early encounters and prompt exploration of today’s interactions among different people.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/sapu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C860054-1DD8-B71B-0BE09BE0AD611F0B.jpg"
@@ -2732,7 +2731,7 @@
   },
   {
     "name": "San Francisco Maritime National Historical Park",
-    "description": "Established in 1988, San Francisco Maritime National Historical Park celebrates America\u2019s maritime heritage on the Pacific Coast. Our 50-acre park has grown around Aquatic Park Cove, a protected area in the stunning San Francisco Bay. As you explore the cove and the historic landmarks around it, you will experience the sights, sounds, and stories of the city\u2019s seafaring past.",
+    "description": "Established in 1988, San Francisco Maritime National Historical Park celebrates America’s maritime heritage on the Pacific Coast. Our 50-acre park has grown around Aquatic Park Cove, a protected area in the stunning San Francisco Bay. As you explore the cove and the historic landmarks around it, you will experience the sights, sounds, and stories of the city’s seafaring past.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/safr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7B8245-1DD8-B71B-0B3598B410FDBACE.jpg"
@@ -2802,7 +2801,7 @@
   },
   {
     "name": "Sequoia & Kings Canyon National Parks",
-    "description": "Huge mountains, rugged foothills, deep canyons, vast caverns, and the world\u2019s largest trees exemplify the diversity of landscapes, life, and beauty here. Explore these pages to plan your visit or to learn about the plants and animals here and the threats they face. Ancient giant sequoias may seem invincible, but they, too are vulnerable.",
+    "description": "Huge mountains, rugged foothills, deep canyons, vast caverns, and the world’s largest trees exemplify the diversity of landscapes, life, and beauty here. Explore these pages to plan your visit or to learn about the plants and animals here and the threats they face. Ancient giant sequoias may seem invincible, but they, too are vulnerable.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/seki/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7A250B-1DD8-B71B-0BCF61A89A8B2970.jpg"
@@ -2823,14 +2822,14 @@
   },
   {
     "name": "Sitka National Historical Park",
-    "description": "On an island amid towering spruce and hemlock, Sitka National Historical Park preserves the site of a battle between invading Russian traders and Indigenous Kiks.\u00e1di Tlingit. Totem poles from Tlingit and Haida areas line the park\u2019s scenic coastal trail, and the restored Russian Bishop\u2019s House is a rare reminder of Russia\u2019s colonial legacy in North America.",
+    "description": "On an island amid towering spruce and hemlock, Sitka National Historical Park preserves the site of a battle between invading Russian traders and Indigenous Kiks.ádi Tlingit. Totem poles from Tlingit and Haida areas line the park’s scenic coastal trail, and the restored Russian Bishop’s House is a rare reminder of Russia’s colonial legacy in North America.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/sitk/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/595854BB-0FD5-AA9C-FD9B70A673563D8F.png"
   },
   {
     "name": "Sleeping Bear Dunes National Lakeshore",
-    "description": "Miles of sand beach, bluffs that tower 450\u2019 above Lake Michigan, lush forests, clear inland lakes, unique flora and fauna make up the natural world of Sleeping Bear Dunes. High dunes afford spectacular views across the lake. An island lighthouse, US Life-Saving Service stations, coastal villages, and picturesque farmsteads reflect the park\u2019s rich maritime, agricultural, and recreational history.",
+    "description": "Miles of sand beach, bluffs that tower 450’ above Lake Michigan, lush forests, clear inland lakes, unique flora and fauna make up the natural world of Sleeping Bear Dunes. High dunes afford spectacular views across the lake. An island lighthouse, US Life-Saving Service stations, coastal villages, and picturesque farmsteads reflect the park’s rich maritime, agricultural, and recreational history.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/slbe/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/6039A7C7-076A-897E-9E33B512C1067A09.jpg"
@@ -2844,7 +2843,7 @@
   },
   {
     "name": "Springfield Armory National Historic Site",
-    "description": "For nearly two centuries, the U.S. Armed Forces and American industry looked to Springfield Armory for innovative engineering and superior firearms. Springfield Armory National Historic Site commemorates the critical role of the nation\u2019s first armory by preserving and interpreting the world's largest historic US military small arms collection, along with historic archives, buildings and landscape.",
+    "description": "For nearly two centuries, the U.S. Armed Forces and American industry looked to Springfield Armory for innovative engineering and superior firearms. Springfield Armory National Historic Site commemorates the critical role of the nation’s first armory by preserving and interpreting the world's largest historic US military small arms collection, along with historic archives, buildings and landscape.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/spar/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/D351A3D5-1DD8-B71B-0B9E169EA16305E9.jpg"
@@ -2864,8 +2863,8 @@
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C85432E-1DD8-B71B-0B678722109EDDF3.jpg"
   },
   {
-    "name": "Ste. Genevi\u00e8ve National Historical Park",
-    "description": "Established by 1750, Ste. Genevi\u00e8ve was the first permanent European settlement in Missouri. Early French Canadian settlers were drawn here by the rich agricultural land known as Le Grand Champ\u00a0(the Big Field). After the flood of 1785,\u00a0the town relocated to its present location on higher ground approximately three miles to the northwest of its original site.",
+    "name": "Ste. Geneviève National Historical Park",
+    "description": "Established by 1750, Ste. Geneviève was the first permanent European settlement in Missouri. Early French Canadian settlers were drawn here by the rich agricultural land known as Le Grand Champ (the Big Field). After the flood of 1785, the town relocated to its present location on higher ground approximately three miles to the northwest of its original site.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/stge/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/6FED42BD-930F-B92A-9CC652F2D045D60D.jpg"
@@ -2935,7 +2934,7 @@
   },
   {
     "name": "Theodore Roosevelt Island",
-    "description": "In the 1930s, landscape architects transformed Mason\u2019s Island from neglected, overgrown farmland into Theodore Roosevelt Island, a memorial to America\u2019s 26th president. They conceived a \u201creal forest\u201d designed to mimic the natural forest that once covered the island. Today miles of trails through wooded uplands and swampy bottomlands honor the legacy of a great outdoorsman and conservationist.",
+    "description": "In the 1930s, landscape architects transformed Mason’s Island from neglected, overgrown farmland into Theodore Roosevelt Island, a memorial to America’s 26th president. They conceived a “real forest” designed to mimic the natural forest that once covered the island. Today miles of trails through wooded uplands and swampy bottomlands honor the legacy of a great outdoorsman and conservationist.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/this/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C85E097-1DD8-B71B-0BA63E687BBA913E.jpg"
@@ -2956,7 +2955,7 @@
   },
   {
     "name": "Thomas Edison National Historical Park",
-    "description": "Today, the brick buildings on Main Street in West Orange, NJ seem quiet, betraying little evidence of the research, development, and innovation of their heyday. Visitors can step back in time to Thomas Edison\u2019s home and laboratory, when machines were run by belts and pulleys and music was played on phonographs. Discover where America\u2019s greatest inventor changed our world forever.",
+    "description": "Today, the brick buildings on Main Street in West Orange, NJ seem quiet, betraying little evidence of the research, development, and innovation of their heyday. Visitors can step back in time to Thomas Edison’s home and laboratory, when machines were run by belts and pulleys and music was played on phonographs. Discover where America’s greatest inventor changed our world forever.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/edis/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C81E2B0-1DD8-B71B-0B55C38EB2E224A5.jpg"
@@ -2977,7 +2976,7 @@
   },
   {
     "name": "Timpanogos Cave National Monument",
-    "description": "The visitor center, caves, and cave tours are now open for the 2025 season. Hike your way past stunning vistas to explore a hidden underground world. Taste the thrill of caving as you twist and bend to enter beautifully decorated rooms. Learn the science behind formations and hear stories of cave exploration and preservation. Experience and discover as you go \u2013 geologic mysteries await",
+    "description": "The visitor center, caves, and cave tours are now open for the 2025 season. Hike your way past stunning vistas to explore a hidden underground world. Taste the thrill of caving as you twist and bend to enter beautifully decorated rooms. Learn the science behind formations and hear stories of cave exploration and preservation. Experience and discover as you go – geologic mysteries await",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/tica/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C83CDD6-1DD8-B71B-0B2C642E4C17AC62.jpg"
@@ -3025,8 +3024,8 @@
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C85F41B-1DD8-B71B-0B8406CBCA19D911.jpg"
   },
   {
-    "name": "Tumac\u00e1cori National Historical Park",
-    "description": "Tumac\u00e1cori sits at a cultural crossroads in the Santa Cruz River valley. Here O\u2019odham, Yaqui, and Apache people met and mingled with European Jesuit and Franciscan missionaries, settlers, and soldiers, sometimes in conflict and sometimes in cooperation. Follow the timeworn paths and discover stories that connect us to enduring relationships, vibrant cultures, and traditions of long ago.",
+    "name": "Tumacácori National Historical Park",
+    "description": "Tumacácori sits at a cultural crossroads in the Santa Cruz River valley. Here O’odham, Yaqui, and Apache people met and mingled with European Jesuit and Franciscan missionaries, settlers, and soldiers, sometimes in conflict and sometimes in cooperation. Follow the timeworn paths and discover stories that connect us to enduring relationships, vibrant cultures, and traditions of long ago.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/tuma/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79D947-1DD8-B71B-0BD91C826A5B9030.jpg"
@@ -3047,7 +3046,7 @@
   },
   {
     "name": "Tuskegee Institute National Historic Site",
-    "description": "In 1881, Booker T. Washington arrived in Alabama and started building Tuskegee Institute both in reputation and literally brick by brick. He recruited the best and the brightest to come and teach here including George Washington Carver who arrived in 1896. Carver\u2019s innovations in agriculture, especially with peanuts, expanded Tuskegee\u2019s standing throughout the country. The story continues\u2026.",
+    "description": "In 1881, Booker T. Washington arrived in Alabama and started building Tuskegee Institute both in reputation and literally brick by brick. He recruited the best and the brightest to come and teach here including George Washington Carver who arrived in 1896. Carver’s innovations in agriculture, especially with peanuts, expanded Tuskegee’s standing throughout the country. The story continues….",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/tuin/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C880363-1DD8-B71B-0B19DE390A6D20CD.jpg"
@@ -3138,7 +3137,7 @@
   },
   {
     "name": "Walnut Canyon National Monument",
-    "description": "Since time immemorial, Indigenous Peoples have lived and traveled throughout Walnut Canyon\u2019s dynamic landscape. Vibrant communities built their homes in the cliffs and farmed along the canyon\u2019s rim. Today the park preserves this landscape, and the ancestral homes in and around the canyon.",
+    "description": "Since time immemorial, Indigenous Peoples have lived and traveled throughout Walnut Canyon’s dynamic landscape. Vibrant communities built their homes in the cliffs and farmed along the canyon’s rim. Today the park preserves this landscape, and the ancestral homes in and around the canyon.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/waca/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/BD960798-C876-B810-51981256E26FDB64.jpg"
@@ -3159,7 +3158,7 @@
   },
   {
     "name": "Washington-Rochambeau Revolutionary Route National Historic Trail",
-    "description": "\u201cOf the happiness I have enjoyed in our private friendship. The remembrance of which will be one of the most pleasing Circumstances of my life.\u201d\u2013 Comte de Rochambeau on his relationship with George Washington",
+    "description": "“Of the happiness I have enjoyed in our private friendship. The remembrance of which will be one of the most pleasing Circumstances of my life.”– Comte de Rochambeau on his relationship with George Washington",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/waro/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/38D13B48-1DD8-B71B-0B557C5D33E45D9D.jpg"
@@ -3173,14 +3172,14 @@
   },
   {
     "name": "Weir Farm National Historical Park",
-    "description": "Visit the home and studio of America's most beloved Impressionist, J. Alden Weir, and walk in the footsteps of generations of world-class artists. Set amidst more than 60 acres of painterly woods, fields, and waterways, you\u2019ll soon see why Weir described his home as the \"Great Good Place.\" Weir\u2019s farm is a national legacy to American Impressionism, the creative spirit, and historic preservation.",
+    "description": "Visit the home and studio of America's most beloved Impressionist, J. Alden Weir, and walk in the footsteps of generations of world-class artists. Set amidst more than 60 acres of painterly woods, fields, and waterways, you’ll soon see why Weir described his home as the \"Great Good Place.\" Weir’s farm is a national legacy to American Impressionism, the creative spirit, and historic preservation.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/wefa/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79474F-1DD8-B71B-0B09D5BBA22FB9D0.jpg"
   },
   {
     "name": "Whiskeytown National Recreation Area",
-    "description": "Whiskeytown Lake\u2019s crystal-clear waters are iconic, but this 42,000-acre National Recreation Area offers much more. Explore waterfalls, hike rugged trails, uncover Gold Rush history, and witness the resilience of nature in its post-fire recovery. Adventure awaits at every turn\u2014Whiskeytown is calling!",
+    "description": "Whiskeytown Lake’s crystal-clear waters are iconic, but this 42,000-acre National Recreation Area offers much more. Explore waterfalls, hike rugged trails, uncover Gold Rush history, and witness the resilience of nature in its post-fire recovery. Adventure awaits at every turn—Whiskeytown is calling!",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/whis/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C81470B-1DD8-B71B-0B1CF8A880DBD58D.jpg"
@@ -3208,7 +3207,7 @@
   },
   {
     "name": "Wilson's Creek National Battlefield",
-    "description": "Wilson's Creek was the first major Civil War battle fought west of the Mississippi River, and the site of the death of Nathaniel Lyon, the first Union general killed in action. The costly Southern victory on August 10, 1861, focused national attention on the war in Missouri. Wilson\u2019s Creek NB commemorates and interprets the battle within the context of the war in the Trans-Mississippi West.",
+    "description": "Wilson's Creek was the first major Civil War battle fought west of the Mississippi River, and the site of the death of Nathaniel Lyon, the first Union general killed in action. The costly Southern victory on August 10, 1861, focused national attention on the war in Missouri. Wilson’s Creek NB commemorates and interprets the battle within the context of the war in the Trans-Mississippi West.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/wicr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/EB8B9CDB-F889-440A-39F7A89402AF6B96.jpg"
@@ -3236,7 +3235,7 @@
   },
   {
     "name": "Women's Rights National Historical Park",
-    "description": "Women\u2019s Rights National Historical Park tells the story of the first Women\u2019s Rights Convention, held in Seneca Falls, New York on July 19-20, 1848. It is a story of struggles for civil rights, human rights, and equality, global struggles that continue today. The efforts of women\u2019s rights leaders, abolitionists, and other 19th century reformers remind us that all people must be accepted as equals.",
+    "description": "Women’s Rights National Historical Park tells the story of the first Women’s Rights Convention, held in Seneca Falls, New York on July 19-20, 1848. It is a story of struggles for civil rights, human rights, and equality, global struggles that continue today. The efforts of women’s rights leaders, abolitionists, and other 19th century reformers remind us that all people must be accepted as equals.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/wori/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7C700A-1DD8-B71B-0B5C2C42B93C9B76.jpg"
@@ -3285,7 +3284,7 @@
   },
   {
     "name": "Yorktown Battlefield Part of Colonial National Historical Park",
-    "description": "Discover what it took for the United States to be independent as you explore the site of the last major battle of the Revolutionary War. Here at Yorktown, in the fall of 1781, General George Washington, with allied American and French forces, besieged General Charles Lord Cornwallis\u2019s British army. On October 19, Cornwallis surrendered, effectively ending the war and ensuring independence.",
+    "description": "Discover what it took for the United States to be independent as you explore the site of the last major battle of the Revolutionary War. Here at Yorktown, in the fall of 1781, General George Washington, with allied American and French forces, besieged General Charles Lord Cornwallis’s British army. On October 19, Cornwallis surrendered, effectively ending the war and ensuring independence.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/york/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7DF20A-1DD8-B71B-0B6F95C33437A94D.jpg"
@@ -3312,9 +3311,8 @@
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/5441BF50-05AD-F33E-6A0339476B5B18EF.jpg"
   },
   {
-    "name": "Zion Park",
-    "test": true,
-    "description": "Follow the where people have walked for thousands of years. Gaze up at massive sandstone cliffs of cream, pink, and red that soar into a brilliant blue sky. Experience the tall, stretching walls of a narrow slot canyon. Zion\u2019s unique array of plants and animals will enchant you as you absorb the rich history of the past and enjoy the excitement of present-day adventures.",
+    "name": "Zion National Park",
+    "description": "Follow the paths where people have walked for thousands of years. Gaze up at massive sandstone cliffs of cream, pink, and red that soar into a brilliant blue sky. Experience the tall, stretching walls of a narrow slot canyon. Zion’s unique array of plants and animals will enchant you as you absorb the rich history of the past and enjoy the excitement of present-day adventures.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/zion/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/68BFC1AC-BF96-629F-89D261D78F181C64.jpg"
