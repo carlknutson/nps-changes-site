@@ -27,8 +27,7 @@ jobs:
       env:
         NPS_API_TOKEN: ${{ secrets.NPS_API_TOKEN }}
       run: |
-        python .github/automation/script.py > data/places.txt
-        python .github/automation/script.py --no-stamps > data/places_no_stamps.txt
+        python .github/automation/script.py > data/sites.json
         changes=$(git status --porcelain)
         if [ -z "$changes" ]; then
           echo "changes_detected=false" >> "$GITHUB_OUTPUT"
