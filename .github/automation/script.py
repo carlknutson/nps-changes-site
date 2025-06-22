@@ -4,6 +4,7 @@ import requests
 import argparse
 import sys
 import os
+import json
 
 def fetch_parks(api_key):
     """Fetch all parks from the NPS API, handling pagination."""
@@ -46,7 +47,6 @@ def fetch_parks(api_key):
 def fetch_stamp_locations(api_key):
     """Fetch all passport stamp locations from the NPS API."""
     base_url = "https://developer.nps.gov/api/v1/passportstamplocations"
-    stamps = []
     start = 0
     limit = 50
     parkCodes = set()  # To store unique park codes
@@ -82,8 +82,7 @@ def fetch_stamp_locations(api_key):
     return parkCodes
 
 def main():
-    parser = argparse.ArgumentParser(description="Fetch park names from the NPS API")
-    parser.add_argument("--no-stamps", action="store_true", help="Show only parks without stamps")
+    parser = argparse.ArgumentParser(description="Fetch park info from the NPS API and output as JSON")
     args = parser.parse_args()
     
     api_key = os.environ.get('NPS_API_TOKEN')
@@ -94,13 +93,22 @@ def main():
     try:
         parks = fetch_parks(api_key)
         parks_with_stamps = fetch_stamp_locations(api_key)
-        
+        result = []
         for park in parks:
-            if args.no_stamps:
-                if park["parkCode"] not in parks_with_stamps:
-                    print(park["fullName"])
-            else:
-                print(park["fullName"])
+            name = park.get("fullName", "")
+            has_stamps = park.get("parkCode", "") in parks_with_stamps
+            description = park.get("description", "")
+            url = park.get("url", "")
+            images = park.get("images", [])
+            photo_link = images[0]["url"] if images else ""
+            result.append({
+                "name": name,
+                "description": description,
+                "has_stamps": has_stamps,
+                "nps_link": url,
+                "photo_link": photo_link
+            })
+        print(json.dumps(result, indent=2))
     except Exception as e:
         print(f"An error occurred: {e}", file=sys.stderr)
         sys.exit(1)
