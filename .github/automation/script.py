@@ -152,5 +152,4 @@ def main():
 if __name__ == "__main__":
     with open(sites_json_path) as f:
         sites = json.load(f)
-    print("First site entry before update:", sites[0])
     main()
