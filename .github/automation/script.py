@@ -81,11 +81,13 @@ def fetch_stamp_locations(api_key):
 
     return parkCodes
 
-SITES_JSON_PATH = os.path.join(os.path.dirname(__file__), '../../data/sites.json')
+# Get repo root (two levels up from this script)
+repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+sites_json_path = os.path.join(repo_root, "data", "sites.json")
 
 def load_existing_sites():
     try:
-        with open(SITES_JSON_PATH, 'r') as f:
+        with open(sites_json_path, 'r') as f:
             return json.load(f)
     except Exception:
         return []
@@ -148,7 +150,7 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
-    with open('../../data/sites.json') as f:
+    with open(sites_json_path) as f:
         sites = json.load(f)
     print("First site entry before update:", sites[0])
     main()
