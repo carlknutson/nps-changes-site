@@ -148,4 +148,7 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
+    with open('../../data/sites.json') as f:
+        sites = json.load(f)
+    print("First site entry before update:", sites[0])
     main()

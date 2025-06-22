@@ -22,6 +22,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     
+    - name: Show sites.json before script
+      run: head -20 data/sites.json
+
     - name: Run script to update NPS data
       id: run-script
       env:
