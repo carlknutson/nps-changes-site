@@ -81,6 +81,38 @@ def fetch_stamp_locations(api_key):
 
     return parkCodes
 
+SITES_JSON_PATH = os.path.join(os.path.dirname(__file__), '../../data/sites.json')
+
+def load_existing_sites():
+    try:
+        with open(SITES_JSON_PATH, 'r') as f:
+            return json.load(f)
+    except Exception:
+        return []
+
+def merge_sites(existing_sites, new_sites):
+    # Use nps_link as unique key if available, else fallback to name
+    def site_key(site):
+        return site.get('nps_link') or site.get('name')
+
+    existing_map = {site_key(site): site for site in existing_sites if site_key(site)}
+    new_map = {site_key(site): site for site in new_sites if site_key(site)}
+
+    merged = []
+    # Add or update sites from new_sites (active = True)
+    for key, new_site in new_map.items():
+        old = existing_map.get(key, {})
+        merged_site = dict(old)
+        merged_site.update(new_site)
+        merged.append(merged_site)
+    # Mark missing sites as inactive
+    for key, old_site in existing_map.items():
+        if key not in new_map:
+            merged_site = dict(old_site)
+            merged_site['active'] = False
+            merged.append(merged_site)
+    return merged
+
 def main():
     parser = argparse.ArgumentParser(description="Fetch park info from the NPS API and output as JSON")
     args = parser.parse_args()
@@ -108,7 +140,9 @@ def main():
                 "nps_link": url,
                 "photo_link": photo_link
             })
-        print(json.dumps(result, indent=2))
+        existing_sites = load_existing_sites()
+        merged_sites = merge_sites(existing_sites, result)
+        print(json.dumps(merged_sites, indent=2, ensure_ascii=False))
     except Exception as e:
         print(f"An error occurred: {e}", file=sys.stderr)
         sys.exit(1)
