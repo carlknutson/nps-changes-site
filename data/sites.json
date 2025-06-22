@@ -4,11 +4,17 @@
     "description": "For over a century people from around the world have come to rural Central Kentucky to honor the humble beginnings of our 16th president, Abraham Lincoln. His early life on Kentucky's frontier shaped his character and prepared him to lead the nation through Civil War. Visit our country's first memorial to Lincoln, built with donations from young and old, and the site of his childhood home.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/abli/index.htm",
-    "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C861078-1DD8-B71B-0B774A242EF6A706.jpg"
+    "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C861078-1DD8-B71B-0B774A242EF6A706.jpg",
+    "previous_names": [
+      "Abraham Lincoln National Park",
+      "Abraham Lincoln National Historical Park",
+      "Abraham Lincoln Birthplace National Historic Site",
+      "Abraham Lincoln Birthplace National Historical Park"
+    ],
+    "nps_established": "07-17-1916"
   },
   {
     "name": "Acadia National Park",
-    "test": "another test",
     "description": "Acadia National Park protects the natural beauty of the highest rocky headlands along the Atlantic coastline of the United States, an abundance of habitats, and a rich cultural heritage. At 4 million visits a year, it's one of the top 10 most-visited national parks in the United States. Visitors enjoy 27 miles of historic motor roads, 158 miles of hiking trails, and 45 miles of carriage roads.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/acad/index.htm",
