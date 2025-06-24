@@ -19,7 +19,8 @@ def fetch_parks(api_key):
         }
         params = {
             "start": start,
-            "limit": limit
+            "limit": limit,
+            "fields": "images,addresses"  # Request images and addresses
         }
 
         try:
@@ -27,8 +28,19 @@ def fetch_parks(api_key):
             response.raise_for_status()
             data = response.json()
             
+            current_parks = data["data"]
+            for park_data in current_parks:
+                # Determine region
+                state_code = ""
+                if park_data.get("addresses"):
+                    for address in park_data["addresses"]:
+                        if address.get("type") == "Physical":
+                            state_code = address.get("stateCode", "")
+                            break
+                park_data["region"] = get_region_from_state(state_code)
+
             # Add parks from current page
-            parks.extend(data["data"])
+            parks.extend(current_parks)
             
             # Check if we've retrieved all parks
             total = int(data["total"])  # Convert total to integer
@@ -43,6 +55,74 @@ def fetch_parks(api_key):
 
     # Sort parks by fullName before returning
     return sorted(parks, key=lambda x: x["fullName"])
+
+STATE_TO_REGION = {
+    # NPS Passport Book Regions
+    "ME": "North Atlantic",
+    "VT": "North Atlantic",
+    "NH": "North Atlantic",
+    "MA": "North Atlantic",
+    "RI": "North Atlantic",
+    "CT": "North Atlantic",
+    "NY": "North Atlantic",
+    "NJ": "Mid-Atlantic",
+    "PA": "Mid-Atlantic",
+    "DE": "Mid-Atlantic",
+    "MD": "Mid-Atlantic", # DC area parks are National Capital
+    "VA": "Mid-Atlantic", # Some VA parks are National Capital or Southeast
+    "WV": "Mid-Atlantic",
+    "DC": "National Capital",
+    "NC": "Southeast",
+    "SC": "Southeast",
+    "GA": "Southeast",
+    "FL": "Southeast",
+    "AL": "Southeast",
+    "MS": "Southeast",
+    "LA": "Southeast",
+    "AR": "Southeast",
+    "TN": "Southeast",
+    "KY": "Southeast",
+    "PR": "Southeast",
+    "VI": "Southeast",
+    "OH": "Midwest",
+    "IN": "Midwest",
+    "IL": "Midwest",
+    "MI": "Midwest",
+    "WI": "Midwest",
+    "MN": "Midwest",
+    "IA": "Midwest",
+    "MO": "Midwest",
+    "TX": "Southwest",
+    "OK": "Southwest",
+    "NM": "Southwest",
+    "AZ": "Southwest",
+    "MT": "Rocky Mountain",
+    "ID": "Rocky Mountain",
+    "WY": "Rocky Mountain",
+    "NV": "Rocky Mountain", # Parts could be Western
+    "UT": "Rocky Mountain",
+    "CO": "Rocky Mountain",
+    "CA": "Western",
+    "OR": "Pacific Northwest & Alaska",
+    "WA": "Pacific Northwest & Alaska",
+    "AK": "Pacific Northwest & Alaska",
+    "HI": "Pacific Islands",
+    "AS": "Pacific Islands",
+    "GU": "Pacific Islands",
+    "MP": "Pacific Islands",
+}
+
+def get_region_from_state(state_code, park_name=""):
+    """Looks up the region for a given state code, with special handling for DC area."""
+    # Handle DC area parks specifically if more granular logic is needed later.
+    # For now, direct state lookup is used.
+    # Example: if "National Mall" in park_name and state_code in ["VA", "MD"]:
+    # return "National Capital"
+    return STATE_TO_REGION.get(state_code.upper(), "Unknown Region")
+
+def fetch_stamp_locations(api_key):
+    """Looks up the region for a given state code."""
+    return STATE_TO_REGION.get(state_code.upper(), "Unknown Region")
 
 def fetch_stamp_locations(api_key):
     """Fetch all passport stamp locations from the NPS API."""
@@ -135,12 +215,14 @@ def main():
             url = park.get("url", "")
             images = park.get("images", [])
             photo_link = images[0]["url"] if images else ""
+            region = park.get("region", "Unknown Region") # Get the region
             result.append({
                 "name": name,
                 "description": description,
                 "has_stamps": has_stamps,
                 "nps_link": url,
-                "photo_link": photo_link
+                "photo_link": photo_link,
+                "region": region # Add region to the output
             })
         existing_sites = load_existing_sites()
         merged_sites = merge_sites(existing_sites, result)
