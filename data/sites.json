@@ -6,7 +6,12 @@
     "nps_link": "https://www.nps.gov/abli/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C861078-1DD8-B71B-0B774A242EF6A706.jpg",
     "region": "Southeast",
-    "nps_established": "1916"
+    "nps_established": "1916",
+    "previous_names": [
+      "Abraham Lincoln National Park",
+      "Lincoln Boyhood National Memorial",
+      "Abraham Lincoln National Historical Park"
+    ]
   },
   {
     "name": "Acadia National Park",
@@ -15,7 +20,11 @@
     "nps_link": "https://www.nps.gov/acad/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7B477B-1DD8-B71B-0BCB48E009241BAA.jpg",
     "region": "North Atlantic",
-    "nps_established": "1919"
+    "nps_established": "1919",
+    "previous_names": [
+      "Sieur de Monts National Monument",
+      "Lafayette National Park"
+    ]
   },
   {
     "name": "Adams National Historical Park",
@@ -24,7 +33,11 @@
     "nps_link": "https://www.nps.gov/adam/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/889E1412-09CD-086C-0BA3855C6E9FF9D3.jpg",
     "region": "North Atlantic",
-    "nps_established": "1946"
+    "nps_established": "1946",
+    "previous_names": [
+      "Adams Mansion National Historic Site",
+      "Adams National Historic Site"
+    ]
   },
   {
     "name": "African American Civil War Memorial",
@@ -78,7 +91,10 @@
     "nps_link": "https://www.nps.gov/anch/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/2595FA12-DF7A-1B6C-55D8F41ABCA2E011.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1980"
+    "nps_established": "1980",
+    "previous_names": [
+      "Alaska Public Lands Information Center"
+    ]
   },
   {
     "name": "Alcatraz Island",
@@ -123,7 +139,10 @@
     "nps_link": "https://www.nps.gov/amch/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C1E570C9-C140-0E81-EDDC02810B0B7EAE.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "2022"
+    "nps_established": "2022",
+    "previous_names": [
+      "Amache National Historic Landmark"
+    ]
   },
   {
     "name": "American Memorial Park",
@@ -159,7 +178,11 @@
     "nps_link": "https://www.nps.gov/ande/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C87F1CB-1DD8-B71B-0B8B6223F6173DF9.jpg",
     "region": "Southeast",
-    "nps_established": "1970"
+    "nps_established": "1970",
+    "previous_names": [
+      "Andersonville Prison Park",
+      "Andersonville National Cemetery"
+    ]
   },
   {
     "name": "Andrew Johnson National Historic Site",
@@ -222,7 +245,10 @@
     "nps_link": "https://www.nps.gov/arch/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/473F5463-F0D2-261D-CEF5FCB39363590B.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "1971"
+    "nps_established": "1971",
+    "previous_names": [
+      "Arches National Monument"
+    ]
   },
   {
     "name": "Arkansas Post National Memorial",
@@ -240,7 +266,10 @@
     "nps_link": "https://www.nps.gov/arho/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C6780B46-B0C0-FB79-E17378C527E54DA7.jpeg",
     "region": "Mid-Atlantic",
-    "nps_established": "1955"
+    "nps_established": "1955",
+    "previous_names": [
+      "Arlington House"
+    ]
   },
   {
     "name": "Assateague Island National Seashore",
@@ -267,7 +296,10 @@
     "nps_link": "https://www.nps.gov/badl/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C82EE63-1DD8-B71B-0BD6EE0FDCB5D402.jpg",
     "region": "Unknown Region",
-    "nps_established": "1978"
+    "nps_established": "1978",
+    "previous_names": [
+      "Badlands National Monument"
+    ]
   },
   {
     "name": "Baltimore-Washington Parkway",
@@ -393,7 +425,10 @@
     "nps_link": "https://www.nps.gov/blca/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C81655F-1DD8-B71B-0B4BCFFDB74EE723.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "1999"
+    "nps_established": "1999",
+    "previous_names": [
+      "Black Canyon of the Gunnison National Monument"
+    ]
   },
   {
     "name": "Blackstone River Valley National Historical Park",
@@ -474,7 +509,10 @@
     "nps_link": "https://www.nps.gov/brcr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C844204-1DD8-B71B-0BF8D1D53809C1E1.jpg",
     "region": "Southeast",
-    "nps_established": "1929"
+    "nps_established": "1929",
+    "previous_names": [
+      "Brices Cross Roads National Battlefield"
+    ]
   },
   {
     "name": "Brown v. Board of Education National Historical Park",
@@ -492,7 +530,10 @@
     "nps_link": "https://www.nps.gov/brca/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/61F08520-E14F-18F2-BF5F3D89482631BD.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "1928"
+    "nps_established": "1928",
+    "previous_names": [
+      "Bryce Canyon National Monument"
+    ]
   },
   {
     "name": "Buck Island Reef National Monument",
@@ -645,7 +686,11 @@
     "nps_link": "https://www.nps.gov/care/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C82E3C7-1DD8-B71B-0B4181834EE46AED.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "1971"
+    "nps_established": "1971",
+    "previous_names": [
+      "Wayne Wonderland National Monument",
+      "Capitol Reef National Monument"
+    ]
   },
   {
     "name": "Captain John Smith Chesapeake National Historic Trail",
@@ -663,7 +708,10 @@
     "nps_link": "https://www.nps.gov/cavo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C84FCB2-1DD8-B71B-0BE4C7320D95575F.jpg",
     "region": "Southwest",
-    "nps_established": "1916"
+    "nps_established": "1916",
+    "previous_names": [
+      "Capulin Mountain National Monument"
+    ]
   },
   {
     "name": "Carl Sandburg Home National Historic Site",
@@ -690,7 +738,10 @@
     "nps_link": "https://www.nps.gov/cave/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/29C3C977-AAE6-B7FD-3C107828D704A5CB.jpg",
     "region": "Southwest",
-    "nps_established": "1930"
+    "nps_established": "1930",
+    "previous_names": [
+      "Carlsbad Cave National Monument"
+    ]
   },
   {
     "name": "Carter G. Woodson Home National Historic Site",
@@ -717,7 +768,10 @@
     "nps_link": "https://www.nps.gov/casa/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7E9A99-1DD8-B71B-0B5C1C290617CA10.jpg",
     "region": "Southeast",
-    "nps_established": "1924"
+    "nps_established": "1924",
+    "previous_names": [
+      "Fort Marion National Monument"
+    ]
   },
   {
     "name": "Castle Clinton National Monument",
@@ -726,7 +780,10 @@
     "nps_link": "https://www.nps.gov/cacl/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8541DF-1DD8-B71B-0BFFEA05DAED37D6.jpg",
     "region": "North Atlantic",
-    "nps_established": "1946"
+    "nps_established": "1946",
+    "previous_names": [
+      "Castle Clinton Monument"
+    ]
   },
   {
     "name": "Castle Mountains National Monument",
@@ -771,7 +828,11 @@
     "nps_link": "https://www.nps.gov/chcu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/67485E91-9831-CBE2-DFD63F0452FF69AA.jpg",
     "region": "Southwest",
-    "nps_established": "1907"
+    "nps_established": "1907",
+    "previous_names": [
+      "Chaco Canyon National Monument",
+      "Chaco Canyon National Historical Park"
+    ]
   },
   {
     "name": "Chamizal National Memorial",
@@ -789,7 +850,10 @@
     "nps_link": "https://www.nps.gov/chis/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/8DE774D1-CB22-37F2-D826E3F0A73D303A.jpg",
     "region": "Western",
-    "nps_established": "1980"
+    "nps_established": "1980",
+    "previous_names": [
+      "Channel Islands National Monument"
+    ]
   },
   {
     "name": "Charles Pinckney National Historic Site",
@@ -825,7 +889,10 @@
     "nps_link": "https://www.nps.gov/choh/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7EC77A-1DD8-B71B-0B67E179DDA9A05A.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "1971"
+    "nps_established": "1971",
+    "previous_names": [
+      "Chesapeake & Ohio Canal National Monument"
+    ]
   },
   {
     "name": "Chesapeake Bay",
@@ -852,7 +919,12 @@
     "nps_link": "https://www.nps.gov/chic/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C81C510-1DD8-B71B-0B34D1FBCE6AA1C6.jpg",
     "region": "Southwest",
-    "nps_established": "1902"
+    "nps_established": "1902",
+    "previous_names": [
+      "Sulphur Springs Reservation",
+      "Platt National Park",
+      "Arbuckle Recreation Area"
+    ]
   },
   {
     "name": "Chiricahua National Monument",
@@ -906,7 +978,10 @@
     "nps_link": "https://www.nps.gov/colo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79E166-1DD8-B71B-0B513F9A61E8A9EB.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "1930"
+    "nps_established": "1930",
+    "previous_names": [
+      "Colonial National Monument"
+    ]
   },
   {
     "name": "Colorado National Monument",
@@ -933,7 +1008,10 @@
     "nps_link": "https://www.nps.gov/cong/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C862C60-1DD8-B71B-0BB65F7B652BA840.jpg",
     "region": "Southeast",
-    "nps_established": "2003"
+    "nps_established": "2003",
+    "previous_names": [
+      "Congaree Swamp National Monument"
+    ]
   },
   {
     "name": "Constitution Gardens",
@@ -978,7 +1056,10 @@
     "nps_link": "https://www.nps.gov/crmo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/B12C4D19-0A4E-52EC-8CE6D0D975978393.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "1924"
+    "nps_established": "1924",
+    "previous_names": [
+      "Craters of the Moon National Monument"
+    ]
   },
   {
     "name": "Cumberland Gap National Historical Park",
@@ -1014,7 +1095,10 @@
     "nps_link": "https://www.nps.gov/cuva/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/F7425874-D97F-BFD6-36581A36C8A7FF0D.jpg",
     "region": "Midwest",
-    "nps_established": "1974"
+    "nps_established": "1974",
+    "previous_names": [
+      "Cuyahoga Valley National Recreation Area"
+    ]
   },
   {
     "name": "César E. Chávez National Monument",
@@ -1050,7 +1134,10 @@
     "nps_link": "https://www.nps.gov/deva/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/010A933C-95B1-CBCD-D6D64D47D5B81E76.jpg",
     "region": "Western",
-    "nps_established": "1994"
+    "nps_established": "1994",
+    "previous_names": [
+      "Death Valley National Monument"
+    ]
   },
   {
     "name": "Delaware Water Gap National Recreation Area",
@@ -1068,7 +1155,10 @@
     "nps_link": "https://www.nps.gov/dena/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C83CC90-1DD8-B71B-0B1F35E5ED96E36F.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1917"
+    "nps_established": "1917",
+    "previous_names": [
+      "Mount McKinley National Park"
+    ]
   },
   {
     "name": "Devils Postpile National Monument",
@@ -1104,7 +1194,10 @@
     "nps_link": "https://www.nps.gov/drto/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C81050F-1DD8-B71B-0B45EDC68B621860.jpg",
     "region": "Southeast",
-    "nps_established": "1992"
+    "nps_established": "1992",
+    "previous_names": [
+      "Fort Jefferson National Monument"
+    ]
   },
   {
     "name": "Dwight D. Eisenhower Memorial",
@@ -1266,7 +1359,10 @@
     "nps_link": "https://www.nps.gov/frst/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/B32AE55E-DDFD-3C76-F3BF23EB7F8FE2AB.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "2013"
+    "nps_established": "2013",
+    "previous_names": [
+      "First State National Monument"
+    ]
   },
   {
     "name": "Flight 93 National Memorial",
@@ -1320,7 +1416,10 @@
     "nps_link": "https://www.nps.gov/fodo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/6903ED5B-1DD8-B71B-0B29CCAFAED7A0BF.jpg",
     "region": "Southeast",
-    "nps_established": "1928"
+    "nps_established": "1928",
+    "previous_names": [
+      "Fort Donelson National Military Park"
+    ]
   },
   {
     "name": "Fort Dupont Park",
@@ -1356,7 +1455,10 @@
     "nps_link": "https://www.nps.gov/fola/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/A3251779-B98C-568E-63313006F25C5488.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "1938"
+    "nps_established": "1938",
+    "previous_names": [
+      "Fort Laramie National Monument"
+    ]
   },
   {
     "name": "Fort Larned National Historic Site",
@@ -1464,7 +1566,10 @@
     "nps_link": "https://www.nps.gov/fosu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/E989D519-950E-C3AC-84F007692983681A.jpg",
     "region": "Southeast",
-    "nps_established": "1948"
+    "nps_established": "1948",
+    "previous_names": [
+      "Fort Sumter National Monument"
+    ]
   },
   {
     "name": "Fort Union National Monument",
@@ -1491,7 +1596,10 @@
     "nps_link": "https://www.nps.gov/fova/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7E8577-1DD8-B71B-0B5ABB3F175DDD81.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1948"
+    "nps_established": "1948",
+    "previous_names": [
+      "Fort Vancouver National Monument"
+    ]
   },
   {
     "name": "Fort Washington Park",
@@ -1536,7 +1644,10 @@
     "nps_link": "https://www.nps.gov/frdo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7BDCB8-1DD8-B71B-0BB04B6313FE6EF1.jpg",
     "region": "National Capital",
-    "nps_established": "1962"
+    "nps_established": "1962",
+    "previous_names": [
+      "Frederick Douglass Home"
+    ]
   },
   {
     "name": "Frederick Law Olmsted National Historic Site",
@@ -1590,7 +1701,10 @@
     "nps_link": "https://www.nps.gov/jeff/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/200BA7E6-D782-9A97-A8C36AC178DEB31C.jpg",
     "region": "Midwest",
-    "nps_established": "2018"
+    "nps_established": "2018",
+    "previous_names": [
+      "Jefferson National Expansion Memorial"
+    ]
   },
   {
     "name": "Gateway National Recreation Area",
@@ -1680,7 +1794,10 @@
     "nps_link": "https://www.nps.gov/glba/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C791618-1DD8-B71B-0B113FBF2EC1D614.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1980"
+    "nps_established": "1980",
+    "previous_names": [
+      "Glacier Bay National Monument"
+    ]
   },
   {
     "name": "Glacier National Park",
@@ -1734,7 +1851,10 @@
     "nps_link": "https://www.nps.gov/gosp/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7E7FBB-1DD8-B71B-0BA82B3A17812A08.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "1957"
+    "nps_established": "1957",
+    "previous_names": [
+      "Golden Spike National Historic Site"
+    ]
   },
   {
     "name": "Governors Island National Monument",
@@ -1824,7 +1944,10 @@
     "nps_link": "https://www.nps.gov/grsa/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/BC4ACB4C-0A6D-0188-E9A6AA1217827461.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "2000"
+    "nps_established": "2000",
+    "previous_names": [
+      "Great Sand Dunes National Monument"
+    ]
   },
   {
     "name": "Great Smoky Mountains National Park",
@@ -1896,7 +2019,10 @@
     "nps_link": "https://www.nps.gov/hale/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3D05E583-1DD8-B71B-0BBFF82F7F78AF6A.jpg",
     "region": "Pacific Islands",
-    "nps_established": "1916"
+    "nps_established": "1916",
+    "previous_names": [
+      "Haleakala Section of Hawaii National Park"
+    ]
   },
   {
     "name": "Hamilton Grange National Memorial",
@@ -1932,7 +2058,10 @@
     "nps_link": "https://www.nps.gov/hafe/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C829352-1DD8-B71B-0BEB6383BF4B9277.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "1944"
+    "nps_established": "1944",
+    "previous_names": [
+      "Harpers Ferry National Monument"
+    ]
   },
   {
     "name": "Harriet Tubman National Historical Park",
@@ -1968,7 +2097,10 @@
     "nps_link": "https://www.nps.gov/havo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C4E8415A-08E5-5976-833F494FFCA3FFE6.jpg",
     "region": "Pacific Islands",
-    "nps_established": "1916"
+    "nps_established": "1916",
+    "previous_names": [
+      "Hawaii National Park"
+    ]
   },
   {
     "name": "Herbert Hoover National Historic Site",
@@ -2004,7 +2136,10 @@
     "nps_link": "https://www.nps.gov/home/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/E9AA6622-E74B-C7C1-97C6C3C3676F7519.jpg",
     "region": "Unknown Region",
-    "nps_established": "1936"
+    "nps_established": "1936",
+    "previous_names": [
+      "Homestead National Monument of America"
+    ]
   },
   {
     "name": "Honouliuli National Historic Site",
@@ -2022,7 +2157,10 @@
     "nps_link": "https://www.nps.gov/hocu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/0C0231CE-C54D-AE33-ACAB8874C99A1B84.jpg",
     "region": "Midwest",
-    "nps_established": "1923"
+    "nps_established": "1923",
+    "previous_names": [
+      "Mound City Group National Monument"
+    ]
   },
   {
     "name": "Hopewell Furnace National Historic Site",
@@ -2049,7 +2187,11 @@
     "nps_link": "https://www.nps.gov/hosp/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C0D8DFDD-F151-C5B0-3004B0088C98BA5A.jpg",
     "region": "Southeast",
-    "nps_established": "1921"
+    "nps_established": "1921",
+    "previous_names": [
+      "Hot Springs Reservation",
+      "Hot Springs National Reservation"
+    ]
   },
   {
     "name": "Hovenweep National Monument",
@@ -2103,7 +2245,10 @@
     "nps_link": "https://www.nps.gov/indu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/9253EDFB-AAFD-E111-B985CD2747F5C48F.jpg",
     "region": "Midwest",
-    "nps_established": "2019"
+    "nps_established": "2019",
+    "previous_names": [
+      "Indiana Dunes National Lakeshore"
+    ]
   },
   {
     "name": "Isle Royale National Park",
@@ -2130,7 +2275,10 @@
     "nps_link": "https://www.nps.gov/jaga/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8438A8-1DD8-B71B-0B1FAF95F1FC35BF.jpg",
     "region": "Midwest",
-    "nps_established": "1980"
+    "nps_established": "1980",
+    "previous_names": [
+      "James A. Garfield National Historic Site and Memorial"
+    ]
   },
   {
     "name": "Jean Lafitte National Historical Park and Preserve",
@@ -2139,7 +2287,10 @@
     "nps_link": "https://www.nps.gov/jela/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C845D16-1DD8-B71B-0B04181AABF4F0C1.jpg",
     "region": "Southeast",
-    "nps_established": "1978"
+    "nps_established": "1978",
+    "previous_names": [
+      "Jean Lafitte National Historical Park"
+    ]
   },
   {
     "name": "Jewel Cave National Monument",
@@ -2157,7 +2308,10 @@
     "nps_link": "https://www.nps.gov/jica/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C87D454-1DD8-B71B-0B1CF7672AB5806C.jpg",
     "region": "Southeast",
-    "nps_established": "1987"
+    "nps_established": "1987",
+    "previous_names": [
+      "Jimmy Carter National Historic Site"
+    ]
   },
   {
     "name": "John Day Fossil Beds National Monument",
@@ -2202,7 +2356,10 @@
     "nps_link": "https://www.nps.gov/jotr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/306D0D93-9CCA-76E1-AD48268F8D7A7E3E.jpg",
     "region": "Western",
-    "nps_established": "1994"
+    "nps_established": "1994",
+    "previous_names": [
+      "Joshua Tree National Monument"
+    ]
   },
   {
     "name": "Juan Bautista de Anza National Historic Trail",
@@ -2247,7 +2404,10 @@
     "nps_link": "https://www.nps.gov/katm/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7A0FDB-1DD8-B71B-0B8933ACA92FE6B3.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1980"
+    "nps_established": "1980",
+    "previous_names": [
+      "Katmai National Monument"
+    ]
   },
   {
     "name": "Kenai Fjords National Park",
@@ -2301,7 +2461,10 @@
     "nps_link": "https://www.nps.gov/klse/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/39704550-FCDA-D336-B4FBEE35BD2793C2.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1979"
+    "nps_established": "1979",
+    "previous_names": [
+      "Klondike Gold Rush National Historical Park—Seattle Unit"
+    ]
   },
   {
     "name": "Klondike Gold Rush National Historical Park",
@@ -2364,7 +2527,10 @@
     "nps_link": "https://www.nps.gov/lake/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79D292-1DD8-B71B-0B9A850B0D5AAAFC.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "1964"
+    "nps_established": "1964",
+    "previous_names": [
+      "Boulder Dam Recreation Area"
+    ]
   },
   {
     "name": "Lake Meredith National Recreation Area",
@@ -2382,7 +2548,10 @@
     "nps_link": "https://www.nps.gov/laro/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C878C15-1DD8-B71B-0B3F6762ED559E9B.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1946"
+    "nps_established": "1946",
+    "previous_names": [
+      "Coulee Dam National Recreation Area"
+    ]
   },
   {
     "name": "Lassen Volcanic National Park",
@@ -2391,7 +2560,11 @@
     "nps_link": "https://www.nps.gov/lavo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C873811-1DD8-B71B-0B9C62ED8E12E7B5.jpg",
     "region": "Western",
-    "nps_established": "1916"
+    "nps_established": "1916",
+    "previous_names": [
+      "Lassen Peak National Monument",
+      "Cinder Cone National Monument"
+    ]
   },
   {
     "name": "Lava Beds National Monument",
@@ -2418,7 +2591,10 @@
     "nps_link": "https://www.nps.gov/lewi/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/54612AA3-0734-3D97-137865DFB9918D11.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "2004"
+    "nps_established": "2004",
+    "previous_names": [
+      "Fort Clatsop National Memorial"
+    ]
   },
   {
     "name": "Lincoln Boyhood National Memorial",
@@ -2454,7 +2630,10 @@
     "nps_link": "https://www.nps.gov/libi/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C847035-1DD8-B71B-0B387957A7924FFA.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "1946"
+    "nps_established": "1946",
+    "previous_names": [
+      "Custer Battlefield National Monument"
+    ]
   },
   {
     "name": "Little River Canyon National Preserve",
@@ -2481,7 +2660,10 @@
     "nps_link": "https://www.nps.gov/long/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3F81541A-CC01-7548-8F7723937ECD58D8.jpg",
     "region": "North Atlantic",
-    "nps_established": "1972"
+    "nps_established": "1972",
+    "previous_names": [
+      "Longfellow National Historic Site"
+    ]
   },
   {
     "name": "Lowell National Historical Park",
@@ -2517,7 +2699,10 @@
     "nps_link": "https://www.nps.gov/lyjo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/FE93563C-B920-FCC4-73E75A4CE886A72F.jpg",
     "region": "Southwest",
-    "nps_established": "1969"
+    "nps_established": "1969",
+    "previous_names": [
+      "Lyndon B. Johnson National Historic Site"
+    ]
   },
   {
     "name": "Maggie L Walker National Historic Site",
@@ -2598,7 +2783,10 @@
     "nps_link": "https://www.nps.gov/malu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/5DC14EA9-047B-156E-0DEAFE4188EAD890.jpg",
     "region": "Southeast",
-    "nps_established": "1980"
+    "nps_established": "1980",
+    "previous_names": [
+      "Martin Luther King, Jr. National Historic Site"
+    ]
   },
   {
     "name": "Martin Van Buren National Historic Site",
@@ -2643,7 +2831,10 @@
     "nps_link": "https://www.nps.gov/misp/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/145ADAC5-07E3-1AA1-D902CCF0A4219664.jpg",
     "region": "Southeast",
-    "nps_established": "2020"
+    "nps_established": "2020",
+    "previous_names": [
+      "Mill Springs Battlefield National Historic Site"
+    ]
   },
   {
     "name": "Minidoka National Historic Site",
@@ -2652,7 +2843,10 @@
     "nps_link": "https://www.nps.gov/miin/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C874621-1DD8-B71B-0B29C1E739E9977F.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "2001"
+    "nps_established": "2001",
+    "previous_names": [
+      "Minidoka Internment National Monument"
+    ]
   },
   {
     "name": "Minute Man National Historical Park",
@@ -2814,7 +3008,10 @@
     "nps_link": "https://www.nps.gov/nama/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C821F64-1DD8-B71B-0B7C29BA3E4F549E.jpg",
     "region": "National Capital",
-    "nps_established": "1965"
+    "nps_established": "1965",
+    "previous_names": [
+      "National Capital Parks"
+    ]
   },
   {
     "name": "National Park of American Samoa",
@@ -2904,7 +3101,10 @@
     "nps_link": "https://www.nps.gov/neri/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7E8C70-1DD8-B71B-0B00C7B2373E386E.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "2020"
+    "nps_established": "2020",
+    "previous_names": [
+      "New River Gorge National River"
+    ]
   },
   {
     "name": "Nez Perce National Historical Park",
@@ -2985,7 +3185,10 @@
     "nps_link": "https://www.nps.gov/ocmu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C797774-1DD8-B71B-0B2DA9E973C5AD89.jpg",
     "region": "Southeast",
-    "nps_established": "1936"
+    "nps_established": "1936",
+    "previous_names": [
+      "Ocmulgee National Monument"
+    ]
   },
   {
     "name": "Oklahoma City National Memorial",
@@ -3012,7 +3215,10 @@
     "nps_link": "https://www.nps.gov/olym/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7B1DB4-1DD8-B71B-0B9DFEFDD398DB71.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1938"
+    "nps_established": "1938",
+    "previous_names": [
+      "Mount Olympus National Monument"
+    ]
   },
   {
     "name": "Oregon Caves National Monument & Preserve",
@@ -3021,7 +3227,10 @@
     "nps_link": "https://www.nps.gov/orca/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8507A5-1DD8-B71B-0B921718CA5479A5.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1909"
+    "nps_established": "1909",
+    "previous_names": [
+      "Oregon Caves National Monument"
+    ]
   },
   {
     "name": "Oregon National Historic Trail",
@@ -3084,7 +3293,10 @@
     "nps_link": "https://www.nps.gov/paal/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C791D5F-1DD8-B71B-0B9B92E13DDE689F.jpg",
     "region": "Southwest",
-    "nps_established": "1992"
+    "nps_established": "1992",
+    "previous_names": [
+      "Palo Alto Battlefield National Historic Site"
+    ]
   },
   {
     "name": "Paterson Great Falls National Historical Park",
@@ -3093,7 +3305,10 @@
     "nps_link": "https://www.nps.gov/pagr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3F720292-1DD8-B71B-0BBF0A529555D377.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "2009"
+    "nps_established": "2009",
+    "previous_names": [
+      "Paterson Great Falls National Historic Park"
+    ]
   },
   {
     "name": "Pea Ridge National Military Park",
@@ -3111,7 +3326,10 @@
     "nps_link": "https://www.nps.gov/valr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/6E5D5C03-C701-0F6B-FB7BF0935A817ED0.jpg",
     "region": "Pacific Islands",
-    "nps_established": "2019"
+    "nps_established": "2019",
+    "previous_names": [
+      "World War II Valor in the Pacific National Monument"
+    ]
   },
   {
     "name": "Pecos National Historical Park",
@@ -3120,7 +3338,10 @@
     "nps_link": "https://www.nps.gov/peco/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/0457F740-1DD8-B71B-0B9462AD0E72A834.jpg",
     "region": "Southwest",
-    "nps_established": "1965"
+    "nps_established": "1965",
+    "previous_names": [
+      "Pecos National Monument"
+    ]
   },
   {
     "name": "Pennsylvania Avenue",
@@ -3129,7 +3350,10 @@
     "nps_link": "https://www.nps.gov/paav/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C85E1B9-1DD8-B71B-0B20BF6EC58D31AF.jpg",
     "region": "National Capital",
-    "nps_established": "1965"
+    "nps_established": "1965",
+    "previous_names": [
+      "Pennsylvania Avenue National Historic Site"
+    ]
   },
   {
     "name": "Perry's Victory & International Peace Memorial",
@@ -3138,7 +3362,10 @@
     "nps_link": "https://www.nps.gov/pevi/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/841EBF31-FF88-8F95-A51D7A1594AAF65C.jpg",
     "region": "Midwest",
-    "nps_established": "1936"
+    "nps_established": "1936",
+    "previous_names": [
+      "Perry’s Victory and International Peace Memorial National Monument"
+    ]
   },
   {
     "name": "Petersburg National Battlefield",
@@ -3147,7 +3374,10 @@
     "nps_link": "https://www.nps.gov/pete/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C857F09-1DD8-B71B-0B54C972E552D1CB.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "1926"
+    "nps_established": "1926",
+    "previous_names": [
+      "Petersburg National Military Park"
+    ]
   },
   {
     "name": "Petrified Forest National Park",
@@ -3183,7 +3413,10 @@
     "nps_link": "https://www.nps.gov/pinn/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C86A8CB-1DD8-B71B-0BAE8F7141CCBB1B.jpg",
     "region": "Western",
-    "nps_established": "2013"
+    "nps_established": "2013",
+    "previous_names": [
+      "Pinnacles National Monument"
+    ]
   },
   {
     "name": "Pipe Spring National Monument",
@@ -3264,7 +3497,10 @@
     "nps_link": "https://www.nps.gov/wicl/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C80B417-1DD8-B71B-0B6F982FAD0B0CE9.jpg",
     "region": "Southeast",
-    "nps_established": "2010"
+    "nps_established": "2010",
+    "previous_names": [
+      "President William Jefferson Clinton Birthplace Home National Historic Site"
+    ]
   },
   {
     "name": "Presidio of San Francisco",
@@ -3282,7 +3518,10 @@
     "nps_link": "https://www.nps.gov/prwi/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C82646F-1DD8-B71B-0BBBC3BB74314991.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "1936"
+    "nps_established": "1936",
+    "previous_names": [
+      "Chopawamsic Recreational Demonstration Area"
+    ]
   },
   {
     "name": "Pullman National Historical Park",
@@ -3291,7 +3530,10 @@
     "nps_link": "https://www.nps.gov/pull/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/20E409DD-D017-0B84-52AEE57620BCD240.jpg",
     "region": "Midwest",
-    "nps_established": "2015"
+    "nps_established": "2015",
+    "previous_names": [
+      "Pullman National Monument"
+    ]
   },
   {
     "name": "Puʻuhonua o Hōnaunau National Historical Park",
@@ -3300,7 +3542,10 @@
     "nps_link": "https://www.nps.gov/puho/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/B9D5C440-9B40-6C05-5FCF4EFB33F1FD16.jpg",
     "region": "Pacific Islands",
-    "nps_established": "1961"
+    "nps_established": "1961",
+    "previous_names": [
+      "City of Refuge National Historical Park"
+    ]
   },
   {
     "name": "Puʻukoholā Heiau National Historic Site",
@@ -3327,7 +3572,10 @@
     "nps_link": "https://www.nps.gov/reer/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C1E96A3D-D248-AD79-ABDA8E7BE3A38597.jpg",
     "region": "Southeast",
-    "nps_established": "2017"
+    "nps_established": "2017",
+    "previous_names": [
+      "Reconstruction Era National Monument"
+    ]
   },
   {
     "name": "Redwood National and State Parks",
@@ -3336,7 +3584,10 @@
     "nps_link": "https://www.nps.gov/redw/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/CD69DD56-E050-4F4E-DDF622317D38250E.jpg",
     "region": "Western",
-    "nps_established": "1968"
+    "nps_established": "1968",
+    "previous_names": [
+      "Redwood National Park"
+    ]
   },
   {
     "name": "Richmond National Battlefield Park",
@@ -3345,7 +3596,10 @@
     "nps_link": "https://www.nps.gov/rich/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79860B-1DD8-B71B-0BF764186C0B45DF.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "1936"
+    "nps_established": "1936",
+    "previous_names": [
+      "Richmond National Battlefield Park (Wartime Sites)"
+    ]
   },
   {
     "name": "Rio Grande Wild & Scenic River",
@@ -3435,7 +3689,10 @@
     "nps_link": "https://www.nps.gov/sagu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/5CB8B2F6-01B7-9A50-73702A355E4136B8.jpg",
     "region": "Southwest",
-    "nps_established": "1994"
+    "nps_established": "1994",
+    "previous_names": [
+      "Saguaro National Monument"
+    ]
   },
   {
     "name": "Saint Croix Island International Historic Site",
@@ -3444,7 +3701,10 @@
     "nps_link": "https://www.nps.gov/sacr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7B31B6-1DD8-B71B-0BC1CE33970A8EAD.jpg",
     "region": "North Atlantic",
-    "nps_established": "1984"
+    "nps_established": "1984",
+    "previous_names": [
+      "Saint Croix Island National Monument"
+    ]
   },
   {
     "name": "Saint Croix National Scenic Riverway",
@@ -3471,7 +3731,10 @@
     "nps_link": "https://www.nps.gov/saga/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C856833-1DD8-B71B-0BAEFC61DA10D0B6.jpg",
     "region": "North Atlantic",
-    "nps_established": "1964"
+    "nps_established": "1964",
+    "previous_names": [
+      "Saint-Gaudens National Historic Site"
+    ]
   },
   {
     "name": "Salem Maritime National Historic Site",
@@ -3489,7 +3752,11 @@
     "nps_link": "https://www.nps.gov/sapu/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C860054-1DD8-B71B-0BE09BE0AD611F0B.jpg",
     "region": "Southwest",
-    "nps_established": "1909"
+    "nps_established": "1909",
+    "previous_names": [
+      "Gran Quivira National Monument",
+      "Salinas National Monument"
+    ]
   },
   {
     "name": "Salt River Bay National Historical Park and Ecological Preserve",
@@ -3516,7 +3783,10 @@
     "nps_link": "https://www.nps.gov/safr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7B8245-1DD8-B71B-0B3598B410FDBACE.jpg",
     "region": "Western",
-    "nps_established": "1988"
+    "nps_established": "1988",
+    "previous_names": [
+      "San Francisco Maritime Museum National Historic Site"
+    ]
   },
   {
     "name": "San Juan Island National Historical Park",
@@ -3606,7 +3876,11 @@
     "nps_link": "https://www.nps.gov/seki/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7A250B-1DD8-B71B-0BCF61A89A8B2970.jpg",
     "region": "Western",
-    "nps_established": "1890"
+    "nps_established": "1890",
+    "previous_names": [
+      "Sequoia National Park",
+      "Kings Canyon National Park"
+    ]
   },
   {
     "name": "Shenandoah National Park",
@@ -3633,7 +3907,10 @@
     "nps_link": "https://www.nps.gov/sitk/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/595854BB-0FD5-AA9C-FD9B70A673563D8F.png",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1910"
+    "nps_established": "1910",
+    "previous_names": [
+      "Sitka National Monument"
+    ]
   },
   {
     "name": "Sleeping Bear Dunes National Lakeshore",
@@ -3678,7 +3955,10 @@
     "nps_link": "https://www.nps.gov/stli/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C85432E-1DD8-B71B-0B678722109EDDF3.jpg",
     "region": "North Atlantic",
-    "nps_established": "1924"
+    "nps_established": "1924",
+    "previous_names": [
+      "Statue of Liberty National Monument and Ellis Island"
+    ]
   },
   {
     "name": "Ste. Geneviève National Historical Park",
@@ -3750,7 +4030,11 @@
     "nps_link": "https://www.nps.gov/whho/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C85DF8B-1DD8-B71B-0B3BCAF449D7D845.jpg",
     "region": "National Capital",
-    "nps_established": "1933"
+    "nps_established": "1933",
+    "previous_names": [
+      "White House",
+      "President's Park"
+    ]
   },
   {
     "name": "Theodore Roosevelt Birthplace National Historic Site",
@@ -3804,7 +4088,10 @@
     "nps_link": "https://www.nps.gov/edis/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C81E2B0-1DD8-B71B-0B55C38EB2E224A5.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "1962"
+    "nps_established": "1962",
+    "previous_names": [
+      "Edison National Historic Site"
+    ]
   },
   {
     "name": "Thomas Jefferson Memorial",
@@ -3822,7 +4109,10 @@
     "nps_link": "https://www.nps.gov/thst/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/1045ACA0-BB5B-C428-2272CC5E8E76A87C.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "1980"
+    "nps_established": "1980",
+    "previous_names": [
+      "Thomas Stone National Monument"
+    ]
   },
   {
     "name": "Timpanogos Cave National Monument",
@@ -3876,7 +4166,10 @@
     "nps_link": "https://www.nps.gov/tule/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/529AA262-F23D-E5D9-A8B28ED0215975DD.jpg",
     "region": "Western",
-    "nps_established": "2008"
+    "nps_established": "2008",
+    "previous_names": [
+      "Tule Lake Unit of World War II Valor in the Pacific National Monument"
+    ]
   },
   {
     "name": "Tule Springs Fossil Beds National Monument",
@@ -3894,7 +4187,10 @@
     "nps_link": "https://www.nps.gov/tuma/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79D947-1DD8-B71B-0BD91C826A5B9030.jpg",
     "region": "Southwest",
-    "nps_established": "1908"
+    "nps_established": "1908",
+    "previous_names": [
+      "Tumacacori National Monument"
+    ]
   },
   {
     "name": "Tupelo National Battlefield",
@@ -4083,7 +4379,10 @@
     "nps_link": "https://www.nps.gov/wefa/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C79474F-1DD8-B71B-0B09D5BBA22FB9D0.jpg",
     "region": "North Atlantic",
-    "nps_established": "1990"
+    "nps_established": "1990",
+    "previous_names": [
+      "Weir Farm National Historic Site"
+    ]
   },
   {
     "name": "Whiskeytown National Recreation Area",
@@ -4101,7 +4400,10 @@
     "nps_link": "https://www.nps.gov/whsa/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/7CA16410-A412-1F05-2D92EB04EEB27980.jpg",
     "region": "Southwest",
-    "nps_established": "2019"
+    "nps_established": "2019",
+    "previous_names": [
+      "White Sands National Monument"
+    ]
   },
   {
     "name": "Whitman Mission National Historic Site",
@@ -4110,7 +4412,10 @@
     "nps_link": "https://www.nps.gov/whmi/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/0BF0A3D7-D2A9-5705-180B4FED2BAA38FC.jpg",
     "region": "Pacific Northwest & Alaska",
-    "nps_established": "1936"
+    "nps_established": "1936",
+    "previous_names": [
+      "Whitman National Monument"
+    ]
   },
   {
     "name": "William Howard Taft National Historic Site",
@@ -4128,7 +4433,10 @@
     "nps_link": "https://www.nps.gov/wicr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/EB8B9CDB-F889-440A-39F7A89402AF6B96.jpg",
     "region": "Midwest",
-    "nps_established": "1960"
+    "nps_established": "1960",
+    "previous_names": [
+      "Wilson's Creek Battlefield National Park"
+    ]
   },
   {
     "name": "Wind Cave National Park",
@@ -4155,7 +4463,10 @@
     "nps_link": "https://www.nps.gov/wotr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8068F8-1DD8-B71B-0B3D0F4B88C2CD62.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "1966"
+    "nps_established": "1966",
+    "previous_names": [
+      "Wolf Trap Farm Park"
+    ]
   },
   {
     "name": "Women's Rights National Historical Park",
@@ -4173,7 +4484,10 @@
     "nps_link": "https://www.nps.gov/wwim/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/CB4DB522-0F64-662E-7F41883E1BEC3066.jpg",
     "region": "National Capital",
-    "nps_established": "2021"
+    "nps_established": "2021",
+    "previous_names": [
+      "District of Columbia War Memorial"
+    ]
   },
   {
     "name": "World War II Memorial",
@@ -4227,7 +4541,10 @@
     "nps_link": "https://www.nps.gov/york/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7DF20A-1DD8-B71B-0B6F95C33437A94D.jpg",
     "region": "Mid-Atlantic",
-    "nps_established": "1930"
+    "nps_established": "1930",
+    "previous_names": [
+      "Colonial National Monument"
+    ]
   },
   {
     "name": "Yosemite National Park",
@@ -4263,6 +4580,9 @@
     "nps_link": "https://www.nps.gov/zion/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/68BFC1AC-BF96-629F-89D261D78F181C64.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "1919"
+    "nps_established": "1919",
+    "previous_names": [
+      "Mukuntuweap National Monument"
+    ]
   }
 ]
