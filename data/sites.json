@@ -63,7 +63,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/agfo/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7A058F-1DD8-B71B-0B188ED102F7285F.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1965"
   },
   {
@@ -295,7 +295,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/badl/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C82EE63-1DD8-B71B-0BD6EE0FDCB5D402.jpg",
-    "region": "Unknown Region",
+    "region": "Rocky Mountain",
     "nps_established": "1978",
     "previous_names": [
       "Badlands National Monument"
@@ -520,7 +520,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/brvb/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8422BD-1DD8-B71B-0BB53F08D10856B9.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1992"
   },
   {
@@ -1086,7 +1086,7 @@
     "nps_link": "https://www.nps.gov/cure/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/A1496038-AF15-BB3A-3FD6DD366CE0BA4C.jpg",
     "region": "Rocky Mountain",
-    "nps_established": "Unknown"
+    "nps_established": "1965"
   },
   {
     "name": "Cuyahoga Valley National Park",
@@ -1466,7 +1466,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/fols/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7B90DB-1DD8-B71B-0BC969A75425CFE9.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1964"
   },
   {
@@ -1538,7 +1538,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/fosc/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C837EE2-1DD8-B71B-0BD0F84088C06269.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1978"
   },
   {
@@ -1586,7 +1586,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/fous/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C81ACEF-1DD8-B71B-0B1AD164BE2F3313.jpg",
-    "region": "Unknown Region",
+    "region": "Rocky Mountain",
     "nps_established": "1966"
   },
   {
@@ -2135,7 +2135,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/home/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/E9AA6622-E74B-C7C1-97C6C3C3676F7519.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1936",
     "previous_names": [
       "Homestead National Monument of America"
@@ -2298,7 +2298,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/jeca/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C6DE6447-A12D-692B-419DBA224FA0D35B.jpg",
-    "region": "Unknown Region",
+    "region": "Rocky Mountain",
     "nps_established": "1908"
   },
   {
@@ -2481,7 +2481,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/knri/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C812613-1DD8-B71B-0B29B74AAFA56DE7.jpg",
-    "region": "Unknown Region",
+    "region": "Rocky Mountain",
     "nps_established": "1974"
   },
   {
@@ -2581,7 +2581,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/lecl/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/FA29AF56-DF2B-8692-40F8422E38FB9093.jpg",
-    "region": "Unknown Region",
+    "region": ["Pacific Northwest & Alaska", "Rocky Mountain", "Midwest", "Southeast", "Mid-Atlantic"],
     "nps_established": "1978"
   },
   {
@@ -2863,7 +2863,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/mimi/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7BEAAF-1DD8-B71B-0BBB2CECC1123926.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1999"
   },
   {
@@ -2881,7 +2881,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/mnrr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8375D2-1DD8-B71B-0B28DF0D3992CFAE.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1978"
   },
   {
@@ -2953,7 +2953,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/moru/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/B8BC21F3-9292-822E-797779C6FA2B9497.jpg",
-    "region": "Unknown Region",
+    "region": "Rocky Mountain",
     "nps_established": "1925"
   },
   {
@@ -3121,7 +3121,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/nico/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/C71D6C09-9F6D-9027-52520EDA8DBABF14.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1996"
   },
   {
@@ -3139,7 +3139,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/niob/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7C95AD-1DD8-B71B-0B9C962E8BA62E89.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1991"
   },
   {
@@ -3652,7 +3652,7 @@
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/roca/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C87DAB6-1DD8-B71B-0BEB25E5636E1E5F.jpg",
-    "region": "Unknown Region",
+    "region": "International",
     "nps_established": "1964"
   },
   {
@@ -3857,7 +3857,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/scbl/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7AB9C7-1DD8-B71B-0BE8539018DE86B3.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1919"
   },
   {
@@ -4011,7 +4011,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/tapr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C799F41-1DD8-B71B-0BE449FCE70F95CA.jpg",
-    "region": "Unknown Region",
+    "region": "Midwest",
     "nps_established": "1996"
   },
   {
@@ -4069,7 +4069,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/thro/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C793AD5-1DD8-B71B-0B4A3C1BFA5B4C83.jpg",
-    "region": "Unknown Region",
+    "region": "Rocky Mountain",
     "nps_established": "1947"
   },
   {
@@ -4444,7 +4444,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/wica/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7ACD12-1DD8-B71B-0BEF13804E4498FF.jpg",
-    "region": "Unknown Region",
+    "region": "Rocky Mountain",
     "nps_established": "1903"
   },
   {
