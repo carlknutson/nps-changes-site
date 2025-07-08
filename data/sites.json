@@ -2581,7 +2581,7 @@
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/lecl/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/FA29AF56-DF2B-8692-40F8422E38FB9093.jpg",
-    "region": ["Pacific Northwest & Alaska", "Rocky Mountain", "Midwest", "Southeast", "Mid-Atlantic"],
+    "region": "other",
     "nps_established": "1978"
   },
   {
@@ -3652,7 +3652,7 @@
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/roca/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C87DAB6-1DD8-B71B-0BEB25E5636E1E5F.jpg",
-    "region": "International",
+    "region": "other",
     "nps_established": "1964"
   },
   {
