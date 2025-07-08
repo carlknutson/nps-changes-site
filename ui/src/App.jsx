@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+const MapPage = React.lazy(() => import('./MapPage'));
 import sitesData from '../../data/sites.json';
+import MapView from './MapView';
+import SitesBarChart from './SitesBarChart';
 
 const getUniqueRegions = (sites) => {
   const regions = new Set();
@@ -114,9 +117,11 @@ function SiteGrid({ sites, condensed = false }) {
 }
 
 export default function App() {
+  const [navOpen, setNavOpen] = React.useState(false);
   const [sortBy, setSortBy] = useState('name');
   const [region, setRegion] = useState('all');
   const [hasStamps, setHasStamps] = useState('all');
+  const [mainView, setMainView] = useState('card'); // 'card', 'list', 'map'
   const [view, setView] = useState('all');
   const [condensed, setCondensed] = useState(false);
 
@@ -133,78 +138,143 @@ export default function App() {
 
   return (
     <div style={{ display: 'flex', minHeight: '100vh' }}>
-      <aside style={{
-        width: 220,
+      {/* Collapsible Nav Panel */}
+      <nav style={{
+        width: navOpen ? 220 : 56,
         background: '#f0f4f8',
-        padding: '2rem 1rem 1rem 1rem',
         borderRight: '1px solid #e0e0e0',
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '1.5rem',
         minHeight: '100vh',
         position: 'sticky',
-        top: 0
+        top: 0,
+        transition: 'width 0.2s',
+        zIndex: 10,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: navOpen ? 'flex-start' : 'center',
+        padding: navOpen ? '2rem 1rem 1rem 1rem' : '1rem 0',
       }}>
-        <h2 style={{ fontSize: '1.2rem', margin: 0, marginBottom: '1.5rem', color: '#1a3a5b' }}>Views</h2>
         <button
+          aria-label={navOpen ? 'Close navigation' : 'Open navigation'}
+          onClick={() => setNavOpen(o => !o)}
           style={{
-            background: view === 'all' ? '#1976d2' : '#fff',
-            color: view === 'all' ? '#fff' : '#1976d2',
-            border: '1px solid #1976d2',
-            borderRadius: 6,
-            padding: '0.6rem 1rem',
-            fontWeight: 600,
+            background: '#1976d2',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '50%',
+            width: 36,
+            height: 36,
+            marginBottom: navOpen ? 24 : 0,
             cursor: 'pointer',
-            marginBottom: 8
+            alignSelf: navOpen ? 'flex-end' : 'center',
+            fontSize: 22,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
           }}
-          onClick={() => setView('all')}
         >
-          All Sites
+          {navOpen ? '←' : '☰'}
         </button>
-        <button
-          style={{
-            background: view === 'recent' ? '#1976d2' : '#fff',
-            color: view === 'recent' ? '#fff' : '#1976d2',
-            border: '1px solid #1976d2',
-            borderRadius: 6,
-            padding: '0.6rem 1rem',
-            fontWeight: 600,
-            cursor: 'pointer',
-            marginBottom: 8
-          }}
-          onClick={() => setView('recent')}
-        >
-          Added in Last 5 Years
-        </button>
-        <button
-          style={{
-            background: view === 'about' ? '#1976d2' : '#fff',
-            color: view === 'about' ? '#fff' : '#1976d2',
-            border: '1px solid #1976d2',
-            borderRadius: 6,
-            padding: '0.6rem 1rem',
-            fontWeight: 600,
-            cursor: 'pointer',
-            marginBottom: 16
-          }}
-          onClick={() => setView('about')}
-        >
-          About
-        </button>
-        <div style={{ marginTop: 12 }}>
-          <label style={{ fontWeight: 500, color: '#1a3a5b', fontSize: '1rem' }}>
-            <input
-              type="checkbox"
-              checked={condensed}
-              onChange={e => setCondensed(e.target.checked)}
-              style={{ marginRight: 8 }}
-            />
-            Condensed View
-          </label>
-        </div>
-      </aside>
+        {navOpen && (
+          <>
+            <h2 style={{ fontSize: '1.2rem', margin: 0, marginBottom: '2.5rem', color: '#1a3a5b', alignSelf: 'flex-start' }}>Navigation</h2>
+            <button
+              style={{
+                background: view === 'all' ? '#1976d2' : '#fff',
+                color: view === 'all' ? '#fff' : '#1976d2',
+                border: '1px solid #1976d2',
+                borderRadius: 6,
+                padding: '0.6rem 1rem',
+                fontWeight: 600,
+                cursor: 'pointer',
+                marginBottom: 12,
+                width: '100%',
+                textAlign: 'left',
+              }}
+              onClick={() => setView('all')}
+            >
+              Explore Sites
+            </button>
+            <button
+              style={{
+                background: view === 'recent' ? '#1976d2' : '#fff',
+                color: view === 'recent' ? '#fff' : '#1976d2',
+                border: '1px solid #1976d2',
+                borderRadius: 6,
+                padding: '0.6rem 1rem',
+                fontWeight: 600,
+                cursor: 'pointer',
+                marginBottom: 12,
+                width: '100%',
+                textAlign: 'left',
+              }}
+              onClick={() => setView('recent')}
+            >
+              Added in Last 5 Years
+            </button>
+            <button
+              style={{
+                background: view === 'about' ? '#1976d2' : '#fff',
+                color: view === 'about' ? '#fff' : '#1976d2',
+                border: '1px solid #1976d2',
+                borderRadius: 6,
+                padding: '0.6rem 1rem',
+                fontWeight: 600,
+                cursor: 'pointer',
+                marginBottom: 12,
+                width: '100%',
+                textAlign: 'left',
+              }}
+              onClick={() => setView('about')}
+            >
+              About
+            </button>
+          </>
+        )}
+      </nav>
       <main style={{ flex: 1, padding: '2rem 2.5vw' }}>
-        <h1 style={{ textAlign: 'center' }}>NPS Sites Visualizer</h1>
+        <h1 style={{ textAlign: 'center' }}>National Sites</h1>
+        <div className="controls" style={{ display: 'flex', flexWrap: 'wrap', gap: 16, alignItems: 'center', marginBottom: 24 }}>
+          {view === 'all' && (
+            <>
+              <label>
+                View:
+                <select value={mainView} onChange={e => setMainView(e.target.value)}>
+                  <option value="card">Card</option>
+                  <option value="list">List</option>
+                  <option value="map">Map</option>
+                  <option value="barchart">Bar Chart</option>
+                </select>
+              </label>
+              {mainView !== 'map' && mainView !== 'barchart' && (
+                <label>
+                  Sort by:
+                  <select value={sortBy} onChange={e => setSortBy(e.target.value)}>
+                    <option value="name">Name</option>
+                    <option value="year">Established Year</option>
+                    <option value="region">Region</option>
+                  </select>
+                </label>
+              )}
+              <label>
+                Region:
+                <select value={region} onChange={e => setRegion(e.target.value)}>
+                  <option value="all">All</option>
+                  {regions.map(r => (
+                    <option key={r} value={r}>{r}</option>
+                  ))}
+                </select>
+              </label>
+              <label>
+                Has Stamps:
+                <select value={hasStamps} onChange={e => setHasStamps(e.target.value)}>
+                  <option value="all">All</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </label>
+            </>
+          )}
+        </div>
         {view === 'about' ? (
           <div style={{ maxWidth: 700, margin: '2rem auto', background: '#fff', borderRadius: 12, boxShadow: '0 2px 8px rgba(0,0,0,0.07)', padding: '2rem 2.5rem' }}>
             <h2 style={{ marginTop: 0 }}>About This Site</h2>
@@ -231,42 +301,28 @@ export default function App() {
             </p>
           </div>
         ) : (
-          <>
+          view === 'map' ? (
+            <React.Suspense fallback={<div>Loading map…</div>}>
+              <MapPage />
+            </React.Suspense>
+          ) : (
+            <>
             {view === 'all' && (
-              <div className="controls" style={{ justifyContent: 'center' }}>
-                <label>
-                  Sort by:
-                  <select value={sortBy} onChange={e => setSortBy(e.target.value)}>
-                    <option value="name">Name</option>
-                    <option value="year">Established Year</option>
-                    <option value="region">Region</option>
-                  </select>
-                </label>
-                <label>
-                  Region:
-                  <select value={region} onChange={e => setRegion(e.target.value)}>
-                    <option value="all">All</option>
-                    {regions.map(r => (
-                      <option key={r} value={r}>{r}</option>
-                    ))}
-                  </select>
-                </label>
-                <label>
-                  Has Stamps:
-                  <select value={hasStamps} onChange={e => setHasStamps(e.target.value)}>
-                    <option value="all">All</option>
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
-                  </select>
-                </label>
-              </div>
+              mainView === 'map' ? (
+                <MapView sites={filtered} />
+              ) : mainView === 'list' ? (
+                <SiteGrid sites={filtered} condensed={true} />
+              ) : mainView === 'barchart' ? (
+                <SitesBarChart sites={filtered} />
+              ) : (
+                <SiteGrid sites={filtered} condensed={false} />
+              )
             )}
-            {view === 'all' ? (
-              <SiteGrid sites={filtered} condensed={condensed} />
-            ) : (
-              <TimelineView sites={recentSites} condensed={condensed} />
-            )}
-          </>
+              {view === 'recent' && (
+                <TimelineView sites={recentSites} condensed={condensed} />
+              )}
+            </>
+          )
         )}
       </main>
     </div>
