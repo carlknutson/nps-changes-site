@@ -134,6 +134,7 @@ def main():
             name = park.get("fullName", "")
             has_stamps = park.get("parkCode", "") in parks_with_stamps
             description = park.get("description", "")
+            designation = park.get("designation", "")
             location = park.get("latLong", "")
             url = park.get("url", "")
             images = park.get("images", [])
@@ -141,6 +142,7 @@ def main():
             result.append({
                 "name": name,
                 "description": description,
+                "designation": designation,
                 "location": location,
                 "has_stamps": has_stamps,
                 "nps_link": url,
