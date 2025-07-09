@@ -2,12 +2,12 @@ import React from 'react';
 
 // This widget uses the GitHub API to fetch recent commits for data/sites.json
 // It works for public repos and does not require a token for public data
-const GITHUB_API = 'https://api.github.com/repos/carlknutson/nps-changes-feed/commits?path=data/sites.json&per_page=5';
+const GITHUB_API = 'https://api.github.com/repos/carlknutson/npm-changes-site/commits?path=data/sites.json&per_page=5';
 
 
 // Helper to fetch patch for a commit
 async function fetchPatchForCommit(sha) {
-  const url = `https://api.github.com/repos/carlknutson/nps-changes-feed/commits/${sha}`;
+  const url = `https://api.github.com/repos/carlknutson/npm-changes-site/commits/${sha}`;
   const resp = await fetch(url);
   if (!resp.ok) throw new Error('Failed to fetch commit details');
   const data = await resp.json();
@@ -72,7 +72,7 @@ function RecentDataChangesWidget() {
         </ul>
       )}
       <div style={{ fontSize: 13, color: '#888', marginTop: 8 }}>
-        Powered by <a href="https://github.com/carlknutson/nps-changes-feed" target="_blank" rel="noopener noreferrer">GitHub</a>
+        Powered by <a href="https://github.com/carlknutson/npm-changes-site" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
   );
