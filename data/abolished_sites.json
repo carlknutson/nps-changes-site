@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Mackinac National Park",
+        "nps_established": 1875,
+        "nps_abolished": 1895
+    },
+    {
+        "name": "Papago Saguaro National Monument",
+        "nps_established": 1914,
+        "nps_abolished": 1930
+    },
+    {
+        "name": "Sullys Hill National Park",
+        "nps_established": 1904,
+        "nps_abolished": 1931
+    },
+    {
+        "name": "Lewis and Clark Cavern National Monument",
+        "nps_established": 1908,
+        "nps_abolished": 1937
+    },
+    {
+        "name": "Chattanooga National Cemetery",
+        "nps_established": 1933,
+        "nps_abolished": 1944
+    },
+    {
+        "name": "Shasta Lake Recreation Area",
+        "nps_established": 1945,
+        "nps_abolished": 1948
+    },
+    {
+        "name": "Father Millet Cross National Monument",
+        "nps_established": 1925,
+        "nps_abolished": 1949
+    },
+    {
+        "name": "Lake Texoma Recreation Area",
+        "nps_established": 1946,
+        "nps_abolished": 1949
+    },
+    {
+        "name": "Atlanta Campaign National Historic Site",
+        "nps_established": 1944,
+        "nps_abolished": 1950
+    },
+    {
+        "name": "Holy Cross National Monument",
+        "nps_established": 1933,
+        "nps_abolished": 1950
+    },
+    {
+        "name": "New Echota Marker National Memorial",
+        "nps_established": 1933,
+        "nps_abolished": 1950
+    },
+    {
+        "name": "Wheeler National Monument",
+        "nps_established": 1933,
+        "nps_abolished": 1950
+    },
+    {
+        "name": "Shoshone Cavern National Monument",
+        "nps_established": 1909,
+        "nps_abolished": 1954
+    },
+    {
+        "name": "Old Kasaan National Monument",
+        "nps_established": 1916,
+        "nps_abolished": 1955
+    },
+    {
+        "name": "Castle Pinckney National Monument",
+        "nps_established": 1933,
+        "nps_abolished": 1956
+    },
+    {
+        "name": "Fossil Cycad National Monument",
+        "nps_established": 1922,
+        "nps_abolished": 1956
+    },
+    {
+        "name": "Verendrye National Monument",
+        "nps_established": 1917,
+        "nps_abolished": 1956
+    },
+    {
+        "name": "White Plains National Battlefield Site",
+        "nps_established": 1933,
+        "nps_abolished": 1956
+    },
+    {
+        "name": "Millerton Lake National Recreation Area",
+        "nps_established": 1945,
+        "nps_abolished": 1957
+    },
+    {
+        "name": "Flaming Gorge National Recreation Area",
+        "nps_established": 1963,
+        "nps_abolished": 1968
+    },
+    {
+        "name": "St. Thomas National Historic Site",
+        "nps_established": 1960,
+        "nps_abolished": 1975
+    },
+    {
+        "name": "Shadow Mountain Recreation Area",
+        "nps_established": 1952,
+        "nps_abolished": 1979
+    },
+    {
+        "name": "Mar-a-Lago National Historic Site",
+        "nps_established": 1972,
+        "nps_abolished": 1980
+    },
+    {
+        "name": "The National Visitor Center",
+        "nps_established": 1968,
+        "nps_abolished": 1981
+    },
+    {
+        "name": "John F. Kennedy Center for the Performing Arts",
+        "nps_established": 1972,
+        "nps_abolished": 1994
+    },
+    {
+        "name": "Oklahoma City National Memorial",
+        "nps_established": 1997,
+        "nps_abolished": 2004
+    }
+]
