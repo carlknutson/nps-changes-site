@@ -526,7 +526,7 @@ function App() {
               The data is updated daily via GitHub Actions.
             </p>
             <p style={{ color: '#888', fontSize: '0.98rem', marginTop: '2.2rem', textAlign: 'center' }}>
-              This project is open source. View the code or contribute on <a href="https://github.com/carlknutson/nps-changes-feed" target="_blank" rel="noopener noreferrer" style={{ color: '#1976d2', textDecoration: 'underline' }}>GitHub</a>.
+              This project is open source. View the code or contribute on <a href="https://github.com/carlknutson/npm-changes-site" target="_blank" rel="noopener noreferrer" style={{ color: '#1976d2', textDecoration: 'underline' }}>GitHub</a>.
             </p>
           </div>
         ) : view === 'abolished' ? (
@@ -546,7 +546,7 @@ function App() {
                     Explore NPS Sites
                   </h2>
                   <span style={{ color: '#888', fontSize: '0.98rem' }}>
-                    Data: <a href="https://github.com/carlknutson/nps-changes-feed/blob/main/data/sites.json" target="_blank" rel="noopener noreferrer">sites.json</a>
+                    Data: <a href="https://github.com/carlknutson/npm-changes-site/blob/main/data/sites.json" target="_blank" rel="noopener noreferrer">sites.json</a>
                   </span>
                 </div>
                 <div style={{ color: '#4a5a6a', fontSize: '1.09rem', marginBottom: 18, marginTop: 2, maxWidth: 700 }}>
@@ -576,7 +576,7 @@ function App() {
                       Over the Years
                     </h2>
                     <span style={{ color: '#888', fontSize: '0.98rem' }}>
-                      Data: <a href="https://github.com/carlknutson/nps-changes-feed/blob/main/data/sites.json" target="_blank" rel="noopener noreferrer">sites.json</a>
+                      Data: <a href="https://github.com/carlknutson/npm-changes-site/blob/main/data/sites.json" target="_blank" rel="noopener noreferrer">sites.json</a>
                     </span>
                   </div>
                   <div style={{ color: '#4a5a6a', fontSize: '1.09rem', marginBottom: 18, marginTop: 2, maxWidth: 700 }}>
