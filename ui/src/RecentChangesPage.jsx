@@ -3,7 +3,7 @@ import RecentDataChangesWidget from './RecentDataChangesWidget';
 
 export default function RecentChangesPage() {
   // Copy-to-clipboard for RSS URL
-  const rssUrl = "https://github.com/carlknutson/npm-changes-site/commits/main/data/sites.json.atom";
+  const rssUrl = "https://github.com/carlknutson/nps-changes-site/commits/main/data/sites.json.atom";
   const [copied, setCopied] = React.useState(false);
   const handleCopy = () => {
     navigator.clipboard.writeText(rssUrl);
@@ -39,7 +39,7 @@ export default function RecentChangesPage() {
         </ol>
       </div>
       <p style={{ color: '#888', fontSize: '0.98rem', marginTop: '2.2rem', textAlign: 'center' }}>
-        This project is open source. View the code or contribute on <a href="https://github.com/carlknutson/npm-changes-site" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        This project is open source. View the code or contribute on <a href="https://github.com/carlknutson/nps-changes-site" target="_blank" rel="noopener noreferrer">GitHub</a>.
       </p>
     </div>
   );
