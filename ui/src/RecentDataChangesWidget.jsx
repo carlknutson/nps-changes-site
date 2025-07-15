@@ -84,7 +84,7 @@ function RecentDataChangesWidget() {
         </ul>
       )}
       <div style={{ fontSize: 13, color: '#888', marginTop: 8 }}>
-        Powered by <a href="https://github.com/carlknutson/npm-changes-site" target="_blank" rel="noopener noreferrer">GitHub</a>
+        Powered by <a href="https://github.com/carlknutson/nps-changes-site" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
   );

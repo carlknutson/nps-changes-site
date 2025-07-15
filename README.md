@@ -1,5 +1,5 @@
 
-# npm-changes-site
+# nps-changes-site
 
 An interactive explorer and change-tracker for all U.S. National Park Service (NPS) sites. This project provides a modern web UI for browsing, filtering, and visualizing NPS sites, including map, list, card, bar chart, and timeline views. It also tracks recent data changes and supports collectors interested in NPS passport stamps.
 
@@ -14,7 +14,7 @@ An interactive explorer and change-tracker for all U.S. National Park Service (N
 
 ## Data Sources
 
-- Main data: [`data/sites.json`](data/sites.json) (see [sites.json](https://github.com/carlknutson/npm-changes-site/blob/main/data/sites.json))
+- Main data: [`data/sites.json`](data/sites.json) (see [sites.json](https://github.com/carlknutson/nps-changes-site/blob/main/data/sites.json))
 - Abolished sites: [`data/abolished_sites.json`](data/abolished_sites.json)
 - Data is updated daily via GitHub Actions
 - Most fields are from the [official NPS API](https://www.nps.gov/subjects/developer/api-documentation.htm), with some (region, established year, previous names) supplemented by manual research or AI assistance

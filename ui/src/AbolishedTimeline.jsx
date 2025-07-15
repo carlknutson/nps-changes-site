@@ -129,7 +129,7 @@ function AbolishedTimeline() {
           <span role="img" aria-label="info" style={{ fontSize: 22, color: '#1976d2' }}>⚠️</span>
           <span><b>Disclaimer:</b> The official NPS API does not provide data on past or abolished sites. This data was accumulated from many online sources and may be incorrect or outdated.</span>
         </div>
-        Data: <a href="https://github.com/carlknutson/npm-changes-site/blob/main/data/abolished_sites.json" target="_blank" rel="noopener noreferrer" style={{ color: '#1976d2', textDecoration: 'underline' }}>abolished_sites.json</a>
+        Data: <a href="https://github.com/carlknutson/nps-changes-site/blob/main/data/abolished_sites.json" target="_blank" rel="noopener noreferrer" style={{ color: '#1976d2', textDecoration: 'underline' }}>abolished_sites.json</a>
       </div>
     </div>
   );
