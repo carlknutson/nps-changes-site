@@ -1,3 +1,56 @@
+
+/* Responsive filter controls for Explore page */
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+/* Filter control item styles */
+.filter-controls > div {
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  /* flex: 1 1 160px; */
+  margin-bottom: 0;
+}
+.filter-controls label {
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.filter-controls select {
+  min-width: 120px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #bcd;
+  background: #fff;
+  font-size: 1em;
+}
+@media (max-width: 600px) {
+  .filter-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    margin-bottom: 16px;
+  }
+  .filter-controls > div {
+    min-width: 0;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .filter-controls label {
+    font-size: 1rem;
+    margin-bottom: 2px;
+  }
+  .filter-controls select,
+  .filter-controls button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0;
+  }
+}
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
