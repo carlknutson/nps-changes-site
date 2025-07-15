@@ -2,12 +2,12 @@ import React from 'react';
 
 // This widget uses the GitHub API to fetch recent commits for data/sites.json
 // It works for public repos and does not require a token for public data
-const GITHUB_API = 'https://api.github.com/repos/carlknutson/npm-changes-site/commits?path=data/sites.json&per_page=5';
+const GITHUB_API = 'https://api.github.com/repos/carlknutson/nps-changes-feed/commits?path=data/sites.json&per_page=5';
 
 
 // Helper to fetch patch for a commit
 async function fetchPatchForCommit(sha) {
-  const url = `https://api.github.com/repos/carlknutson/npm-changes-site/commits/${sha}`;
+  const url = `https://api.github.com/repos/carlknutson/nps-changes-feed/commits/${sha}`;
   const resp = await fetch(url);
   if (!resp.ok) throw new Error('Failed to fetch commit details');
   const data = await resp.json();
@@ -64,9 +64,21 @@ function RecentDataChangesWidget() {
                   {patches[commit.sha].split('\n').length > 10 ? '\n…' : ''}
                 </pre>
               )}
-              {patches[commit.sha] === null && (
-                <div style={{ color: '#b71c1c', fontSize: 12, marginTop: 6 }}>No patch available for this commit.</div>
-              )}
+              <div style={{ marginTop: 6 }}>
+                <a
+                  href={`https://github.com/carlknutson/nps-changes-feed/commit/${commit.sha}#diff-${commit.files && commit.files[0] && commit.files[0].sha ? commit.files[0].sha : ''}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: '#1976d2', fontSize: 13, textDecoration: 'underline' }}
+                >
+                  View full diff on GitHub
+                </a>
+                {patches[commit.sha] === null && (
+                  <span style={{ color: '#b71c1c', fontSize: 12, marginLeft: 8 }}>
+                    (No patch preview available)
+                  </span>
+                )}
+              </div>
             </li>
           ))}
         </ul>
