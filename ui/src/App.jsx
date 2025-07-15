@@ -53,6 +53,7 @@ import AbolishedTimeline from './AbolishedTimeline';
 // --- Custom MultiSelect Dropdown with Checkboxes ---
 function DesignationMultiSelect({ options, selected, setSelected }) {
   const [open, setOpen] = React.useState(false);
+  const [search, setSearch] = React.useState('');
   const dropdownRef = React.useRef(null);
 
   React.useEffect(() => {
@@ -81,6 +82,11 @@ function DesignationMultiSelect({ options, selected, setSelected }) {
   const label = allSelected
     ? 'All designations'
     : `${selected.length} selected`;
+
+  // Filter options by search
+  const filteredOptions = search.trim() === ''
+    ? options
+    : options.filter(option => option.toLowerCase().includes(search.trim().toLowerCase()));
 
   return (
     <div ref={dropdownRef} style={{ position: 'relative', minWidth: 160 }}>
@@ -116,7 +122,7 @@ function DesignationMultiSelect({ options, selected, setSelected }) {
             borderRadius: 6,
             boxShadow: '0 2px 12px rgba(0,0,0,0.13)',
             minWidth: 180,
-            maxHeight: 220,
+            maxHeight: 260,
             overflowY: 'auto',
             padding: 6,
           }}
@@ -134,17 +140,38 @@ function DesignationMultiSelect({ options, selected, setSelected }) {
             </label>
           </div>
           <div style={{ borderBottom: '1px solid #eee', margin: '2px 0 6px 0' }} />
-          {options.map(option => (
-            <label key={option} style={{ display: 'flex', alignItems: 'center', padding: '2px 6px', cursor: 'pointer', fontSize: '0.98em' }}>
-              <input
-                type="checkbox"
-                checked={selected.includes(option)}
-                onChange={() => toggleOption(option)}
-                style={{ marginRight: 7 }}
-              />
-              {option}
-            </label>
-          ))}
+          <input
+            type="text"
+            placeholder="Search designations..."
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            style={{
+              width: '96%',
+              margin: '0 2%',
+              marginBottom: 8,
+              padding: '4px 8px',
+              borderRadius: 5,
+              border: '1px solid #bcd',
+              fontSize: '0.98em',
+              outline: 'none',
+            }}
+            autoFocus
+          />
+          {filteredOptions.length === 0 ? (
+            <div style={{ color: '#888', fontSize: '0.97em', padding: '8px 0', textAlign: 'center' }}>No matches</div>
+          ) : (
+            filteredOptions.map(option => (
+              <label key={option} style={{ display: 'flex', alignItems: 'center', padding: '2px 6px', cursor: 'pointer', fontSize: '0.98em' }}>
+                <input
+                  type="checkbox"
+                  checked={selected.includes(option)}
+                  onChange={() => toggleOption(option)}
+                  style={{ marginRight: 7 }}
+                />
+                {option}
+              </label>
+            ))
+          )}
         </div>
       )}
     </div>
@@ -266,16 +293,21 @@ function SiteGrid({ sites, condensed = false }) {
 
 // --- Main App component ---
 
+
 function App() {
-  const [navOpen, setNavOpen] = React.useState(false);
+  // Remove navOpen and isMobile, always use top nav
   const [sortBy, setSortBy] = useState('name');
   const [region, setRegion] = useState('all');
   const [hasStamps, setHasStamps] = useState('all');
-  // Multi-select for designation
   const [designationsSelected, setDesignationsSelected] = useState([]); // [] means all
-  const [mainView, setMainView] = useState('card'); // 'card', 'list', 'map'
-  const [view, setView] = useState('all'); // 'all', 'recent', 'about', 'abolished', 'changes'
+  const [mainView, setMainView] = useState('card');
+  const [view, setView] = useState('all');
   const [condensed, setCondensed] = useState(false);
+  const [siteSearch, setSiteSearch] = useState('');
+  const [filtersOpen, setFiltersOpen] = useState(false);
+
+  // Responsive check for mobile (simple window width check)
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 700;
 
   // Filter and sort
   let filtered = sitesData.filter(site => site.name && site.nps_established);
@@ -283,6 +315,10 @@ function App() {
   if (hasStamps !== 'all') filtered = filtered.filter(site => !!site.has_stamps === (hasStamps === 'yes'));
   if (designationsSelected.length > 0) {
     filtered = filtered.filter(site => designationsSelected.includes(site.designation));
+  }
+  if (siteSearch.trim() !== '') {
+    const searchLower = siteSearch.trim().toLowerCase();
+    filtered = filtered.filter(site => site.name.toLowerCase().includes(searchLower));
   }
   filtered = [...filtered].sort(sorters[sortBy]);
 
@@ -293,203 +329,218 @@ function App() {
   const designations = Array.from(new Set(sitesData.map(site => site.designation).filter(Boolean))).sort();
 
   return (
-    <div style={{ display: 'flex', minHeight: '100vh' }}>
-      {/* Collapsible Nav Panel */}
-      <nav style={{
-        width: navOpen ? 200 : 56,
-        background: '#f0f4f8',
-        borderRight: '1px solid #e0e0e0',
-        minHeight: '100vh',
+    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      {/* Top Navigation Bar (always) */}
+      <header style={{
+        width: '100%',
+        background: '#1976d2',
+        color: '#fff',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        padding: '0.7rem 1.1rem',
         position: 'sticky',
         top: 0,
-        transition: 'width 0.18s cubic-bezier(.7,0,.7,1)',
-        zIndex: 10,
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: navOpen ? 'flex-start' : 'center',
-        padding: navOpen ? '1.5rem 0.5rem 1rem 0.5rem' : '1.2rem 0',
-        boxSizing: 'border-box',
-        boxShadow: navOpen ? '2px 0 12px rgba(0,0,0,0.04)' : undefined,
+        zIndex: 20,
+        boxShadow: '0 2px 8px rgba(25,118,210,0.08)',
       }}>
-        <button
-          aria-label={navOpen ? 'Close navigation' : 'Open navigation'}
-          onClick={() => setNavOpen(o => !o)}
-          style={{
-            background: '#1976d2',
-            color: '#fff',
-            border: 'none',
-            borderRadius: '50%',
-            width: 36,
-            height: 36,
-            marginBottom: navOpen ? 18 : 0,
-            cursor: 'pointer',
-            alignSelf: navOpen ? 'flex-end' : 'center',
-            fontSize: 20,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            boxShadow: '0 2px 8px rgba(25,118,210,0.08)',
-            transition: 'margin-bottom 0.18s',
-          }}
-        >
-          {navOpen ? <span style={{fontSize: 18}}>←</span> : <span style={{fontSize: 18}}>☰</span>}
-        </button>
-        <div
-          style={{
-            opacity: navOpen ? 1 : 0,
-            transform: navOpen ? 'translateY(0)' : 'translateY(10px)',
-            pointerEvents: navOpen ? 'auto' : 'none',
-            transition: 'opacity 0.18s cubic-bezier(.7,0,.7,1), transform 0.18s cubic-bezier(.7,0,.7,1)',
-            width: '100%',
-            willChange: 'opacity,transform',
-          }}
-        >
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
-            {[
-              { key: 'all', label: 'Explore Sites' },
-              { key: 'recent', label: 'Over the Years' },
-              { key: 'abolished', label: 'Abolished Sites' },
-              { key: 'changes', label: 'Recent Changes' },
-              { key: 'about', label: 'About' },
-            ].map(item => (
-              <button
-                key={item.key}
-                style={{
-                  background: view === item.key ? '#1976d2' : 'transparent',
-                  color: view === item.key ? '#fff' : '#1a3a5b',
-                  border: 'none',
-                  borderRadius: 6,
-                  padding: navOpen ? '0.55rem 1rem' : '0.55rem 0',
-                  fontWeight: 500,
-                  cursor: 'pointer',
-                  width: '100%',
-                  textAlign: navOpen ? 'left' : 'center',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: navOpen ? 'flex-start' : 'center',
-                  fontSize: navOpen ? '1.01rem' : '1.13rem',
-                  minHeight: 36,
-                  marginBottom: 2,
-                  transition: 'all 0.13s',
-                  boxShadow: view === item.key ? '0 2px 8px rgba(25,118,210,0.08)' : undefined,
-                  position: 'relative',
-                  letterSpacing: '-0.2px',
-                  outline: view === item.key ? '2px solid #1976d2' : 'none',
-                }}
-                onClick={() => setView(item.key)}
-              >
-                {navOpen && item.label}
-                {view === item.key && (
-                  <span style={{
-                    position: 'absolute',
-                    left: navOpen ? 4 : '50%',
-                    top: '50%',
-                    transform: navOpen ? 'translateY(-50%)' : 'translate(-50%,-50%)',
-                    width: 6,
-                    height: 6,
-                    borderRadius: '50%',
-                    background: '#fff',
-                    display: 'inline-block',
-                  }} />
-                )}
-              </button>
-            ))}
-          </div>
-        </div>
-      </nav>
-      <main style={{ flex: 1, padding: '2rem 2.5vw' }}>
-        <h1 style={{ textAlign: 'center' }}>National Sites</h1>
-        <div className="controls" style={{ display: 'flex', flexWrap: 'wrap', gap: 18, alignItems: 'flex-end', marginBottom: 24 }}>
+        <nav>
+          {[
+            { key: 'all', label: 'Explore' },
+            { key: 'recent', label: 'Years' },
+            { key: 'abolished', label: 'Abolished' },
+            { key: 'changes', label: 'Changes' },
+            { key: 'about', label: 'About' },
+          ].map(item => (
+            <button
+              key={item.key}
+              style={{
+                background: view === item.key ? '#fff' : 'transparent',
+                color: view === item.key ? '#1976d2' : '#fff',
+                border: 'none',
+                borderRadius: 6,
+                padding: '0.45rem 0.7rem',
+                fontWeight: 500,
+                cursor: 'pointer',
+                fontSize: '1rem',
+                marginLeft: 6,
+                marginRight: 0,
+                outline: view === item.key ? '2px solid #fff' : 'none',
+                boxShadow: view === item.key ? '0 2px 8px rgba(25,118,210,0.08)' : undefined,
+                transition: 'all 0.13s',
+              }}
+              onClick={() => setView(item.key)}
+            >
+              {item.label}
+            </button>
+          ))}
+        </nav>
+      </header>
+      <main style={{ flex: 1, padding: '1.2rem 2vw' }}>
+        <div className="controls filter-controls" style={{ display: 'flex', flexWrap: isMobile ? 'wrap' : 'nowrap', gap: 12, alignItems: 'flex-end' }}>
           {view === 'all' && (
             <>
-              <div style={{ display: 'flex', flexDirection: 'column', minWidth: 140 }}>
-                <label style={{ marginBottom: 4, fontWeight: 500 }}>View:</label>
-                <select
-                  value={mainView}
-                  onChange={e => setMainView(e.target.value)}
+              {/* Site search always visible */}
+              <div style={{ minWidth: 220, marginRight: 16, flex: isMobile ? '1 1 100%' : undefined }}>
+                <label htmlFor="site-search">Site Name:</label>
+                <input
+                  id="site-search"
+                  type="text"
+                  placeholder="Search site names..."
+                  value={siteSearch}
+                  onChange={e => setSiteSearch(e.target.value)}
                   style={{
-                    minWidth: 120,
-                    padding: '6px 10px',
-                    borderRadius: 6,
+                    width: '100%',
+                    marginTop: 2,
+                    padding: '4px 8px',
+                    borderRadius: 5,
                     border: '1px solid #bcd',
-                    background: '#fff',
-                    fontSize: '1em',
+                    fontSize: '0.98em',
+                    outline: 'none',
                   }}
-                >
-                  <option value="card">Card</option>
-                  <option value="list">List</option>
-                  <option value="map">Map</option>
-                  <option value="barchart">Bar Chart</option>
-                </select>
-              </div>
-              {mainView !== 'map' && mainView !== 'barchart' && (
-                <div style={{ display: 'flex', flexDirection: 'column', minWidth: 140 }}>
-                  <label style={{ marginBottom: 4, fontWeight: 500 }}>Sort by:</label>
-                  <select
-                    value={sortBy}
-                    onChange={e => setSortBy(e.target.value)}
-                    style={{
-                      minWidth: 120,
-                      padding: '6px 10px',
-                      borderRadius: 6,
-                      border: '1px solid #bcd',
-                      background: '#fff',
-                      fontSize: '1em',
-                    }}
-                  >
-                    <option value="name">Name</option>
-                    <option value="year">Established Year</option>
-                    <option value="region">Region</option>
-                  </select>
-                </div>
-              )}
-              <div style={{ display: 'flex', flexDirection: 'column', minWidth: 140 }}>
-                <label style={{ marginBottom: 4, fontWeight: 500 }}>Region:</label>
-                <select
-                  value={region}
-                  onChange={e => setRegion(e.target.value)}
-                  style={{
-                    minWidth: 120,
-                    padding: '6px 10px',
-                    borderRadius: 6,
-                    border: '1px solid #bcd',
-                    background: '#fff',
-                    fontSize: '1em',
-                  }}
-                >
-                  <option value="all">All</option>
-                  {regions.map(r => (
-                    <option key={r} value={r}>{r}</option>
-                  ))}
-                </select>
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column', minWidth: 140 }}>
-                <label style={{ marginBottom: 4, fontWeight: 500 }}>Has Stamps:</label>
-                <select
-                  value={hasStamps}
-                  onChange={e => setHasStamps(e.target.value)}
-                  style={{
-                    minWidth: 120,
-                    padding: '6px 10px',
-                    borderRadius: 6,
-                    border: '1px solid #bcd',
-                    background: '#fff',
-                    fontSize: '1em',
-                  }}
-                >
-                  <option value="all">All</option>
-                  <option value="yes">Yes</option>
-                  <option value="no">No</option>
-                </select>
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column', minWidth: 160, position: 'relative' }}>
-                <label style={{ marginBottom: 4, fontWeight: 500 }}>Designation:</label>
-                <DesignationMultiSelect
-                  options={designations}
-                  selected={designationsSelected}
-                  setSelected={setDesignationsSelected}
                 />
               </div>
+              {/* Collapsible filters for mobile */}
+              {isMobile ? (
+                <>
+                  <button
+                    type="button"
+                    onClick={() => setFiltersOpen(o => !o)}
+                    style={{
+                      padding: '6px 16px',
+                      borderRadius: 6,
+                      border: '1px solid #bcd',
+                      background: '#f7fafd',
+                      color: '#1976d2',
+                      fontWeight: 600,
+                      fontSize: '1em',
+                      marginBottom: 6,
+                      cursor: 'pointer',
+                    }}
+                  >
+                    {filtersOpen ? 'Hide Filters' : 'Show Filters'}
+                  </button>
+                  {filtersOpen && (
+                    <div style={{ width: '100%' }}>
+                      <div>
+                        <label>View:</label>
+                        <select
+                          value={mainView}
+                          onChange={e => setMainView(e.target.value)}
+                        >
+                          <option value="card">Card</option>
+                          <option value="list">List</option>
+                          <option value="map">Map</option>
+                          <option value="barchart">Bar Chart</option>
+                        </select>
+                      </div>
+                      {mainView !== 'map' && mainView !== 'barchart' && (
+                        <div>
+                          <label>Sort by:</label>
+                          <select
+                            value={sortBy}
+                            onChange={e => setSortBy(e.target.value)}
+                          >
+                            <option value="name">Name</option>
+                            <option value="year">Established Year</option>
+                            <option value="region">Region</option>
+                          </select>
+                        </div>
+                      )}
+                      <div>
+                        <label>Region:</label>
+                        <select
+                          value={region}
+                          onChange={e => setRegion(e.target.value)}
+                        >
+                          <option value="all">All</option>
+                          {regions.map(r => (
+                            <option key={r} value={r}>{r}</option>
+                          ))}
+                        </select>
+                      </div>
+                      <div>
+                        <label>Has Stamps:</label>
+                        <select
+                          value={hasStamps}
+                          onChange={e => setHasStamps(e.target.value)}
+                        >
+                          <option value="all">All</option>
+                          <option value="yes">Yes</option>
+                          <option value="no">No</option>
+                        </select>
+                      </div>
+                      <div style={{ minWidth: 160, position: 'relative' }}>
+                        <label>Designation:</label>
+                        <DesignationMultiSelect
+                          options={designations}
+                          selected={designationsSelected}
+                          setSelected={setDesignationsSelected}
+                        />
+                      </div>
+                    </div>
+                  )}
+                </>
+              ) : (
+                <>
+                  <div>
+                    <label>View:</label>
+                    <select
+                      value={mainView}
+                      onChange={e => setMainView(e.target.value)}
+                    >
+                      <option value="card">Card</option>
+                      <option value="list">List</option>
+                      <option value="map">Map</option>
+                      <option value="barchart">Bar Chart</option>
+                    </select>
+                  </div>
+                  {mainView !== 'map' && mainView !== 'barchart' && (
+                    <div>
+                      <label>Sort by:</label>
+                      <select
+                        value={sortBy}
+                        onChange={e => setSortBy(e.target.value)}
+                      >
+                        <option value="name">Name</option>
+                        <option value="year">Established Year</option>
+                        <option value="region">Region</option>
+                      </select>
+                    </div>
+                  )}
+                  <div>
+                    <label>Region:</label>
+                    <select
+                      value={region}
+                      onChange={e => setRegion(e.target.value)}
+                    >
+                      <option value="all">All</option>
+                      {regions.map(r => (
+                        <option key={r} value={r}>{r}</option>
+                      ))}
+                    </select>
+                  </div>
+                  <div>
+                    <label>Has Stamps:</label>
+                    <select
+                      value={hasStamps}
+                      onChange={e => setHasStamps(e.target.value)}
+                    >
+                      <option value="all">All</option>
+                      <option value="yes">Yes</option>
+                      <option value="no">No</option>
+                    </select>
+                  </div>
+                  <div style={{ minWidth: 160, position: 'relative' }}>
+                    <label>Designation:</label>
+                    <DesignationMultiSelect
+                      options={designations}
+                      selected={designationsSelected}
+                      setSelected={setDesignationsSelected}
+                    />
+                  </div>
+                </>
+              )}
             </>
           )}
         </div>
