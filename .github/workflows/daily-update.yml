@@ -8,8 +8,6 @@ on:
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    outputs:
-      changes_detected: ${{ steps.run-script.outputs.changes_detected }}
     
     steps:
     - uses: actions/checkout@v3
@@ -43,10 +41,3 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add data/
         git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update NPS data" && git push)
-    - name: "Save changes_detected output"
-      run: echo "${{ steps.run-script.outputs.changes_detected }}" > changes_detected
-    - name: "Upload changes_detected artifact"
-      uses: actions/upload-artifact@v3
-      with:
-        name: changes_detected
-        path: changes_detected
