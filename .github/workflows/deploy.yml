@@ -6,11 +6,25 @@ on:
     types:
       - completed
 
-permissions:
-  contents: write
-
 jobs:
+  check_for_changes:
+    runs-on: ubuntu-latest
+    outputs:
+      changes_detected: ${{ steps.check_changes.outputs.changes_detected }}
+    steps:
+      - name: "Download changes_detected artifact"
+        uses: actions/download-artifact@v3
+        with:
+          name: changes_detected
+          path: .
+      - name: "Read changes_detected output"
+        id: check_changes
+        run: |
+          changes=$(cat changes_detected)
+          echo "changes_detected=$changes" >> $GITHUB_OUTPUT
   build-and-deploy:
+    needs: check_for_changes
+    if: needs.check_for_changes.outputs.changes_detected == 'true'
     runs-on: ubuntu-latest
     defaults:
       run:
