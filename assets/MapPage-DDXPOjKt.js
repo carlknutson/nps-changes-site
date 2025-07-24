@@ -1,1 +1,0 @@
-import{j as t,M as e}from"./index-D41xMmz9.js";function i(){return t.jsxs("div",{style:{maxWidth:1200,margin:"0 auto",padding:"2rem 0"},children:[t.jsx("h2",{style:{textAlign:"center",marginBottom:"1.5rem"},children:"NPS Sites Map"}),t.jsx(e,{})]})}export{i as default};
