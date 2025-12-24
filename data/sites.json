@@ -4295,7 +4295,7 @@
   {
     "name": "Rainbow Bridge National Monument",
     "description": "Rainbow Bridge is one of the world's largest known natural bridges. The span has undoubtedly inspired people throughout time--from the neighboring Native American tribes who consider Rainbow Bridge sacred, to the thousands of visitors from around the world who visit it each year. Please visit Rainbow Bridge in a spirit that honors and respects the cultures to whom it is sacred.",
-    "has_stamps": true,
+    "has_stamps": false,
     "nps_link": "https://www.nps.gov/rabr/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7F2C6F-1DD8-B71B-0B3A38DBC8161E3E.jpg",
     "region": "Southwest",
