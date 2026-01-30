@@ -702,7 +702,7 @@
   },
   {
     "name": "Camp Nelson National Monument",
-    "description": "The US Army established Camp Nelson as a fortified supply depot in April 1863. Over the next 3 years. the site evolved into a massive recruitment and training center for United States Colored Troops and a refugee camp for their families. It served as a shelter for civilians fleeing war and for enslaved people hoping to secure their freedom and aid in the destruction of slavery.",
+    "description": "The US Army established Camp Nelson as a fortified supply depot in April 1863. Over the next 3 years, the site evolved into a massive recruitment and training center for United States Colored Troops and a refugee camp for their families. It served as a shelter for civilians fleeing war and for enslaved people hoping to secure their freedom and aid in the destruction of slavery.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/cane/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/90265CF2-ADE6-04D6-1CDC533B004D9746.jpg",
@@ -1935,7 +1935,7 @@
   },
   {
     "name": "Fort Washington Park",
-    "description": "Built to defend the river approach to Washington, DC, Fort Washington has stood as silent sentry for over 200 years. As technologies advanced so did Fort Washington, from the brick and stone of the 19th century to the concrete and steel of the 20th century. Joining the National Park Service in 1946, the park continues to protect the Potomac River.",
+    "description": "Built to defend the river approach to Washington, DC, Fort Washington has stood sentry for over 200 years. As technologies advanced, so did Fort Washington from the brick and stone of the 19th century to the concrete and steel of the 20th century.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/fowa/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C81C3C3-1DD8-B71B-0B04CE7B7C61FE25.jpg",
@@ -4383,7 +4383,7 @@
     "description": "Rocky Mountain National Park's 415 square miles (265,807 acres) encompasses a spectacular range of mountain environments. From meadows found in the montane life zone to glistening alpine lakes and up to the towering mountain peaks, there is something for everyone to discover. Along the way explore over 300 miles of hiking trails and incredible wildlife viewing.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/romo/index.htm",
-    "photo_link": "https://www.nps.gov/common/uploads/structured_data/6C2F94EA-A9A0-0894-81AB05E006326A87.jpg",
+    "photo_link": "https://www.nps.gov/common/uploads/structured_data/75F451C0-9879-9221-DBFF3B28A5C7DAA9.jpg",
     "region": "Rocky Mountain",
     "nps_established": "1915",
     "location": "lat:40.3556924, long:-105.6972879",
