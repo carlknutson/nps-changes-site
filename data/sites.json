@@ -58,7 +58,7 @@
   },
   {
     "name": "African Burial Ground National Monument",
-    "description": "The African Burial Ground is the oldest and largest known excavated burial ground in North America for both free and enslaved Africans. It serves to protect and honor the historic role that slavery played in shaping New York's development.",
+    "description": "The African Burial Ground stands as the oldest and largest known excavated burial site in North America for both free and enslaved Africans. It offers a profound testament to the enduring legacy of African communities whose labor, resilience, and cultural contributions were fundamental in shaping the development of New York.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/afbg/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8554EA-1DD8-B71B-0BE6FF3BF04C18B8.jpg",
@@ -935,7 +935,7 @@
   },
   {
     "name": "Castle Clinton National Monument",
-    "description": "Located at the southern tip of Manhattan Island, Castle Clinton stands where New York City began, and represents not only the city’s growth, but the growth of a nation. Initially intended to prevent a British invasion in 1812, the fortification has transformed over the years to welcome theatergoers, immigrants, sightseers, and now, millions of visitors to New York Harbor.",
+    "description": "Located at the southern tip of Manhattan, Castle Clinton marks the place where New York City began and reflects the growth of both the city and the nation. Built to defend the harbor during the War of 1812, it has since welcomed theatergoers, immigrants, and sightseers—and today continues to greet millions of visitors to New York Harbor.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/cacl/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C8541DF-1DD8-B71B-0BFFEA05DAED37D6.jpg",
@@ -1601,7 +1601,7 @@
   },
   {
     "name": "Federal Hall National Memorial",
-    "description": "Here on Federal Hall, George Washington took the oath of office as our first President, and this site was home to the first Congress, Supreme Court, and Executive Branch offices. The current structure, a Customs House, later served as part of the US Sub-Treasury. Now, the building serves as a museum and memorial to our first President and the beginnings of the United States of America.",
+    "description": "Here at Federal Hall, George Washington took the oath of office as the first President of the United States, marking the beginning of the American constitutional republic. This historic site served as the nation’s first capitol, home to the inaugural Congress, the first Supreme Court, and the earliest offices of the Executive Branch.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/feha/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C855D19-1DD8-B71B-0B2AF1FAF9721319.jpg",
@@ -2244,7 +2244,7 @@
   },
   {
     "name": "Governors Island National Monument",
-    "description": "From 1794 to 1966, the U.S. Army on Governors Island was part of the social, political, and economic tapestry of New York City. It was home to the US Coast Guard from 1966 to 1996. Today, the island is a vibrant venue of art, culture, and performance against the backdrop of two centuries of military heritage and the skyline of one of the great cities of the world. The island is open to the public.",
+    "description": "From 1794 to 1966, the U.S. Army presence on Governors Island played a vital role in the social, political, and economic life of New York City. The island then served as the headquarters of the U.S. Coast Guard from 1966 to 1996, continuing its legacy of national service. Today, Governors Island has transformed into a destination for art, culture, and public programs.",
     "has_stamps": false,
     "nps_link": "https://www.nps.gov/gois/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C85A2A1-1DD8-B71B-0B50FD84825F4474.jpg",
