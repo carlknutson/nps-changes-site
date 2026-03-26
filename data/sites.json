@@ -565,7 +565,7 @@
   {
     "name": "Booker T Washington National Monument",
     "description": "Booker T. Washington was born a slave in April 1856 on the 207-acre farm of James Burroughs. After the Civil War, Washington became the first principal of Tuskegee Normal and Industrial School. Later as an adviser, author and orator, his past would influence his philosophies as the most influential African American of his era. Come explore his birthplace.",
-    "has_stamps": false,
+    "has_stamps": true,
     "nps_link": "https://www.nps.gov/bowa/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C78FE2A-1DD8-B71B-0B28DF0A7DEA50EB.jpg",
     "region": "Mid-Atlantic",
