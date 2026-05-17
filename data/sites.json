@@ -2231,7 +2231,7 @@
   {
     "name": "Golden Spike National Historical Park",
     "description": "One of the greatest technological achievements of the 19th century is the completion of the first transcontinental railroad across the United States. Visitors to the park can see the location of the Last Spike Site, 1869 railroad construction features, walk or drive on the original railroad grade, and get an up close view of Victorian era replica locomotives.",
-    "has_stamps": true,
+    "has_stamps": false,
     "nps_link": "https://www.nps.gov/gosp/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7E7FBB-1DD8-B71B-0BA82B3A17812A08.jpg",
     "region": "Rocky Mountain",
