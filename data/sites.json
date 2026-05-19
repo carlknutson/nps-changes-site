@@ -3879,7 +3879,7 @@
   {
     "name": "Olympic National Park",
     "description": "With its incredible range of precipitation and elevation, diversity is the hallmark of Olympic National Park. Encompassing nearly a million acres, the park protects a vast wilderness, thousands of years of human history, and several distinctly different ecosystems, including glacier-capped mountains, old-growth temperate rain forests, and over 70 miles of wild coastline. Come explore!",
-    "has_stamps": false,
+    "has_stamps": true,
     "nps_link": "https://www.nps.gov/olym/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C7B1DB4-1DD8-B71B-0B9DFEFDD398DB71.jpg",
     "region": "Pacific Northwest & Alaska",
