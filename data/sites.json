@@ -2482,7 +2482,7 @@
   {
     "name": "Harpers Ferry National Historical Park",
     "description": "At the confluence of the Shenandoah and Potomac rivers, on the ancestral home of the Tuscarora and Shawnee people, lies Harpers Ferry. Here you can explore John Brown's Raid against slavery. Find your connection to the struggle for freedom, education, and civil rights at Storer College. Discover miles of trail in the Blue Ridge and along Civil War battlefields.",
-    "has_stamps": true,
+    "has_stamps": false,
     "nps_link": "https://www.nps.gov/hafe/index.htm",
     "photo_link": "https://www.nps.gov/common/uploads/structured_data/3C829352-1DD8-B71B-0BEB6383BF4B9277.jpg",
     "region": "Mid-Atlantic",
