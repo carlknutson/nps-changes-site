@@ -1117,7 +1117,7 @@
     "designation": "National Recreation Area"
   },
   {
-    "name": "Chiricahua National Monument",
+    "name": "Chiricahua National Park",
     "description": "Explore rhyolite pinnacles and balanced rocks on foot or by car. Relax at the campground under star-filled, dark skies. See how a mountain range rising between two deserts creates a home for diverse wildlife. Imagine history here. Prehistoric peoples, Apaches, Buffalo Soldiers, Civilian Conservation Corps, ranchers, and homesteaders inhabited Chiricahua.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/chir/index.htm",
@@ -1125,7 +1125,7 @@
     "region": "Southwest",
     "nps_established": "1924",
     "location": "lat:32.01214618, long:-109.341607",
-    "designation": "National Monument"
+    "designation": "National Park"
   },
   {
     "name": "Christiansted National Historic Site",
