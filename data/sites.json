@@ -1399,6 +1399,15 @@
     "designation": "National Park & Preserve"
   },
   {
+    "name": "Desert Shield Desert Storm Memorial",
+    "description": "",
+    "designation": "Memorial",
+    "location": "lat:38.89170687, long:-77.05068618",
+    "has_stamps": false,
+    "nps_link": "https://www.nps.gov/dsds/index.htm",
+    "photo_link": "https://www.nps.gov/common/uploads/structured_data/241D3A54-0758-315F-67C4861090A32991.jpg"
+  },
+  {
     "name": "Devils Postpile National Monument",
     "description": "Established in 1911 by presidential proclamation, Devils Postpile National Monument protects and preserves the Devils Postpile formation, the 101-foot high Rainbow Falls, and pristine mountain scenery. The formation is a rare sight in the geologic world and ranks as one of the world's finest examples of columnar basalt. Its' columns tower up to 60 feet and display a striking symmetry.",
     "has_stamps": true,
@@ -2178,7 +2187,7 @@
     "description": "A showcase of melting glaciers, alpine meadows, carved valleys, and spectacular lakes. With over 700 miles of trails, Glacier is a paradise for adventurous visitors seeking a landscape steeped in human culture. Relive the days of old through historic chalets, lodges, and the famous Going-to-the-Sun Road.",
     "has_stamps": true,
     "nps_link": "https://www.nps.gov/glac/index.htm",
-    "photo_link": "https://www.nps.gov/common/uploads/structured_data/50021801-C766-9756-F19A755835C4FF5D.jpg",
+    "photo_link": "https://www.nps.gov/common/uploads/structured_data/1F147B77-D1E9-3D10-61ABDA0E4A8D803D.jpg",
     "region": "Rocky Mountain",
     "nps_established": "1910",
     "location": "lat:48.68414678, long:-113.8009306",
